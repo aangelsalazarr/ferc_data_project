@@ -156,9 +156,9 @@ for page_num in range(0, total_results_pages):
     # add to master df
     master_df = pd.concat([master_df, temp_df], ignore_index=True)
 
-# checking to see if our pdf printed accurately
+# checking to see if our pandas df printed accurately
 # print(master_df)
-# master_df.to_csv('ferc_elibrary/test_files/rm_21_17_all_queries_tbl.csv', index=False)
+master_df.to_csv(f'process_check/{docket_numbers[0]}_all_queries_tbl.csv', index=False)
 
 # making website chill for a bit
 time.sleep(5)
@@ -186,6 +186,9 @@ def queries_filter(dataframe, phrase, save=True):
     # converting the accession new column into a list to extract
     accessions_list = list(dataframe_filtered['Accession_Num'])
 
+    # saves filtered query df
+    dataframe_filtered.to_csv(f'process_check/{docket_numbers[0]}_filtered_queries_tbl.csv', index=False)
+
     return accessions_list
 
 
@@ -193,6 +196,9 @@ def gimme_comments(accession_codes: list):
     '''
     iterate through a list of accessions and download files within the data 
     portal
+
+    !!: need to figure out how to change location of where files are stored because as of now it stored
+        in the downloads folder of computer vs storing in dedicated folder within my repo...
     '''
 
     for accession in accession_codes:
@@ -229,4 +235,4 @@ def gimme_comments(accession_codes: list):
 step_1 = queries_filter(dataframe=master_df, phrase="Comment")
 
 # step 2: grab comment files
-gimme_comments(accession_codes=step_1[:20])
+gimme_comments(accession_codes=step_1[:2])
