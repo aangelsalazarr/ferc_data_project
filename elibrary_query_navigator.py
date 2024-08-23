@@ -110,7 +110,7 @@ for button in radio_buttons:
 enter_docket_num = driver.find_element(By.ID, "docketfield")
 
 # inputting the desired text into the field
-enter_docket_num.send_keys(docket_numbers[0])  ## change this whenever you want to shift between diff types of reports
+enter_docket_num.send_keys(docket_numbers[1])  ## change this whenever you want to shift between diff types of reports
 
 # now we want to click submit to load results
 submit_button = driver.find_element(By.ID, "submit")
@@ -158,7 +158,7 @@ for page_num in range(0, total_results_pages):
 
 # checking to see if our pandas df printed accurately
 # print(master_df)
-master_df.to_csv(f'process_check/{docket_numbers[0]}_all_queries_tbl.csv', index=False)
+master_df.to_csv(f'process_check/{docket_numbers[1]}_all_queries_tbl.csv', index=False)
 
 # making website chill for a bit
 time.sleep(5)
@@ -187,7 +187,7 @@ def queries_filter(dataframe, phrase, save=True):
     accessions_list = list(dataframe_filtered['Accession_Num'])
 
     # saves filtered query df
-    dataframe_filtered.to_csv(f'process_check/{docket_numbers[0]}_filtered_queries_tbl.csv', index=False)
+    dataframe_filtered.to_csv(f'process_check/{docket_numbers[1]}_filtered_queries_tbl.csv', index=False)
 
     return accessions_list
 
