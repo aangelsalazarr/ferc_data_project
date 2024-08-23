@@ -16,7 +16,6 @@ import io
 import math
 
 
-
 '''
 This function allows a user to iterate through accession codes and return files within 
 FERC's elibrary portal
