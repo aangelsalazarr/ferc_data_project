@@ -1,5 +1,7 @@
 import requests 
 import time
+import io
+import pandas as pd
 
 # selenium related tools
 from selenium import webdriver
@@ -49,7 +51,7 @@ year_button.click()
 # now we want to input string value represetning year we would like to filter for year, e.g. 2024
 year_filter_input = '/html/body/div/app-root/submission-history/div/ag-grid-angular/div/div[3]/div/div/div/div[1]/div[1]/div[1]/input'
 year_filter = driver.find_element(By.XPATH, year_filter_input)
-year_filter.send_keys('2024')
+year_filter.send_keys('2023')
 
 # purpose is to click apply filter on the year filter
 apply_year_filter_path = '/html/body/div[1]/app-root/submission-history/div/ag-grid-angular/div/div[3]/div/div/div/div[2]/button[2]'
@@ -72,7 +74,7 @@ form_button = driver.find_element(By.XPATH, form_button_path)
 form_button.click()
 
 # now we are inserting the form type we want to filter for
-form_filter_input = ''
+form_filter_input = '//*[@id="textFilter"]'
 form_filter = driver.find_element(By.XPATH, form_filter_input)
 form_filter.send_keys('Form 714')
 
@@ -80,6 +82,47 @@ form_filter.send_keys('Form 714')
 apply_form_filter_path = '/html/body/div[1]/app-root/submission-history/div/ag-grid-angular/div/div[3]/div/div/set-filter/div/div[3]/div/mat-form-field/div/div[1]/div[2]'
 apply_form_filter = driver.find_element(By.XPATH, apply_form_filter_path)
 apply_form_filter.click()
+
+# now we begin the process of exporting the table of FERC 714 forms in order to filter out any redundancies
+def grab_eform_tbl():
+    '''
+    purpose of this function is to grab table data within a ferc elibrary page and return as df
+    '''
+
+    # path to our table within the html code
+    # as of now we assume that the table will exist... need to account for when there is not table
+    grid_xpath = '//*[@id="myGrid"]'
+
+    # get the HTML content of the table
+    grid_element = driver.find_element(By.XPATH, grid_xpath)
+
+    # extracting data from the agi grid
+    data = grid_element.find_elements(By.CSS_SELECTOR, '.ag-row')
+    col_headers = grid_element.find_elements(By.CSS_SELECTOR, '.ag-header-cell')
+
+    # creating a list of dicts to represent the data
+    rows = []
+    for raw_element in data:
+        raw_data = {}
+        cells = raw_element.find_elements(By.CSS_SELECTOR, '.ag-cell')
+
+        for i, cell in enumerate(cells):
+            col_header = col_headers[i].text
+            raw_data[col_header] = cell.text
+        rows.append(raw_data)
+
+    # dataframe of html table
+    dataframe = pd.DataFrame(rows)
+
+    # removing any empty rows
+    dataframe = dataframe.dropna()
+
+    return dataframe
+
+
+# checking to see if we can successfully grabe the table
+test_case = grab_eform_tbl()
+test_case.to_csv('process_check/temp_eform_results.csv', index=False)
 
 # letting the webpage chill out for a bit to allow for the eforms site to load
 # webpage loads in a little under 7 seconds so setting at 10 should be sufficient
