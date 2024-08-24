@@ -170,6 +170,7 @@ for page_num in range(1, total_results_pages+1):
     '''
     iterate going through, changing the page number, and then grabbing the loaded table
     '''
+    # printing out what page we are on
     print(f'Currently processing page number: {page_num}')
 
     # grabbing the table for the specific page
@@ -183,8 +184,14 @@ for page_num in range(1, total_results_pages+1):
 
     # setting the page number where we want to extract info from
     results_page_num = driver.find_element(By.XPATH, 
-                                           '/html/body/div[1]/app-root/submission-history/div/ag-grid-angular/div/div[2]/span[2]/div[3]/button')
-    results_page_num.click()
+                                        '/html/body/div[1]/app-root/submission-history/div/ag-grid-angular/div/div[2]/span[2]/div[3]/button')
+    
+    # if not on last page, then click
+    if page_num < total_results_pages:
+        results_page_num.click()
+
+    else: 
+        print("at the last page!")
 
 # checking our master df 
 print(master_df)
