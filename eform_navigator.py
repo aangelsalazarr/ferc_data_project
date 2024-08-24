@@ -32,11 +32,11 @@ driver = webdriver.Chrome()
 # opening the ferc eform page
 driver.get(url=eform_url)
 
-# waiting for the webpage to fully load
-# wait for options to be available
-wait = WebDriverWait(driver, 10)
-options = wait.until(EC.presence_of_all_elements_located((By.XPATH, "//mat-option")))
+# this will be the xpath we want to check for to make sure the webpage has loaded....
+eform_tbl = '//*[@id="myGrid"]'
 
+# waiting for webpage to fully load and we know this by the existence of the table with form data
+WebDriverWait(driver, 15).until(lambda x: x.find_element(By.XPATH, eform_tbl)).is_displayed()
 
 '''# allowing the website to load for 7 seconds
 driver.implicitly_wait(time_to_wait=7)
