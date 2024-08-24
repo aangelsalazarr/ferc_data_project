@@ -3,6 +3,7 @@ import time
 import io
 import pandas as pd
 import math
+from datetime import date
 
 # selenium related tools
 from selenium import webdriver
@@ -158,6 +159,39 @@ def num_of_query_pages():
 # calculating how many pages we have
 total_results_pages = num_of_query_pages()
 print(f'Total number of pages: {total_results_pages}')
+
+# now we want to iterate through each page and grab grid data
+
+# first we are creating a master df
+master_df = pd.DataFrame()
+
+# iterate process of going through each page and grabbing each table
+for page_num in range(1, total_results_pages):
+    '''
+    iterate going through, changing the page number, and then grabbing the loaded table
+    '''
+    print(f'Currently processing page number: {page_num}')
+
+    # setting the page number where we want to extract info from
+    results_page_num = driver.find_element(By.XPATH, 
+                                           '/html/body/div[1]/app-root/submission-history/div/ag-grid-angular/div/div[2]/span[2]/div[3]/button')
+    results_page_num.click()
+
+    # grabbing the table for the specific page
+    temp_df = grab_eform_tbl()
+
+    # checking out temp_df
+    print(temp_df)
+
+    # add to master df
+    master_df = pd.concat([master_df, temp_df], ignore_index=True)
+
+# checking our master df 
+print(master_df)
+
+# setting up the name of our main df export csv
+eform_file_pull_name = 'eform'
+master_df.to_csv('process_check/{eform_file_pull_name}')
 
 # letting the webpage chill out for a bit to allow for the eforms site to load
 # webpage loads in a little under 7 seconds so setting at 10 should be sufficient
