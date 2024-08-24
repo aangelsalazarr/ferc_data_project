@@ -2,6 +2,7 @@ import requests
 import time
 import io
 import pandas as pd
+import math
 
 # selenium related tools
 from selenium import webdriver
@@ -119,10 +120,44 @@ def grab_eform_tbl():
 
     return dataframe
 
-
 # checking to see if we can successfully grabe the table
 test_case = grab_eform_tbl()
 test_case.to_csv('process_check/temp_eform_results.csv', index=False)
+
+
+# given the total number of results, returns total number of results
+def num_of_query_pages():
+    '''
+    returns total number of queries within the webpage
+    '''
+    # total results
+    total_results = driver.find_element(By.CLASS_NAME, 
+                                        'ag-paging-row-summary-panel')
+
+    # string that looks like 1 - 100 of 814
+    string = str(total_results.text)
+
+    # splitting our string by spacing
+    range_label_parts = string.split()
+
+    # finding the index of "of"
+    of_index = range_label_parts.index("of")
+
+    # extract the numerical value after "of"
+    total_results_found = range_label_parts[of_index + 1]
+
+    # found results as an integer
+    results_num = int(total_results_found)
+
+    # divide by 100 queries and then round up to find total number of pages we 
+    # have to iterate through
+    total_pages = math.ceil(results_num / 11)
+
+    return total_pages
+
+# calculating how many pages we have
+total_results_pages = num_of_query_pages()
+print(f'Total number of pages: {total_results_pages}')
 
 # letting the webpage chill out for a bit to allow for the eforms site to load
 # webpage loads in a little under 7 seconds so setting at 10 should be sufficient
