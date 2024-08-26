@@ -1,11 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 import time
-from webdriver_manager.chrome import ChromeDriverManager
-
+from selenium.webdriver.chrome.options import Options
 
 # filing id test list
 filing_id_test_list = ['192310', '181864']
@@ -18,7 +15,7 @@ def return_eform_filings(filing_ids: list):
     '''
 
     for filing_id in filing_ids:
-
+        
         # creating a chome session
         driver = webdriver.Chrome()
 
