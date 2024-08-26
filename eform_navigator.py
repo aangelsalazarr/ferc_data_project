@@ -204,6 +204,20 @@ eform_file_pull_name = 'eform_filtered_data'
 master_df.to_csv(f'process_check/{eform_file_pull_name}_{today}.csv', 
                  index=False)
 
+# now working on returning the list of filing ids
+def return_filtered_filings(dataframe: object):
+    '''
+    From the filtered dataframe provided, return a list of the filing ids
+    '''
+    # converting the filing id column into a list to extract
+    filing_id_list = list(dataframe['Filing ID'])
+
+    return filing_id_list
+
+# now we are applying the return filing id list function
+form_714_filings = return_filtered_filings(dataframe=master_df) 
+
+
 # letting the webpage chill out for a bit to allow for the eforms site to load
 # webpage loads in a little under 7 seconds so setting at 10 should be sufficient
 time.sleep(15)
