@@ -16,8 +16,17 @@ def return_eform_filings(filing_ids: list):
 
     for filing_id in filing_ids:
         
+        # setting up the download directory
+        options = webdriver.ChromeOptions()
+
+        # path of where we want to store our data
+        prefs = {"download.default_directory": r"C:\Users\aange\OneDrive\Desktop\Personal Python Projects\ferc_data_project\ferc_714_xml_files"}
+
+        # adding options to our chrome driver
+        options.add_experimental_option("prefs", prefs)
+
         # creating a chome session
-        driver = webdriver.Chrome()
+        driver = webdriver.Chrome(options=options)
 
         # opening ferc library specific page
         driver.get(f'https://ecollection.ferc.gov/submissionDetails/{filing_id}')
