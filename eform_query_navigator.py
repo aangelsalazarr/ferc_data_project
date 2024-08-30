@@ -11,6 +11,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+# importing sub functions
+import eform_query_processor as eqp
+
 '''
 objects and areas that we can filter for on the webpage
 
@@ -210,3 +213,10 @@ time.sleep(15)
 
 # closing the window of our loaded webpage
 driver.quit()
+
+# returning list of all filing ids
+filing_ids_list = list(master_df['Filing ID'])
+print(filing_ids_list)
+
+# moving on to return filings
+eqp.return_eform_filings(filing_ids=filing_ids_list)
