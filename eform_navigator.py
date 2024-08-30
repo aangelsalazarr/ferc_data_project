@@ -204,43 +204,6 @@ eform_file_pull_name = 'eform_filtered_data'
 master_df.to_csv(f'process_check/{eform_file_pull_name}_{today}.csv', 
                  index=False)
 
-# grabbing a list of the form submissions
-xml_list = master_df['Filing ID'].to_list()
-
-# iterate through list of IDs and grab xml files
-def return_xmls(form_submissions: list, ):
-    '''
-    Purpose of the function is to grab xmls via form submission ID
-    '''
-
-    # iterate through list and return xml file
-    for xml_id in form_submissions:
-        '''
-        go through each file and download xml file
-        '''
-
-        # setting up the drive path
-        drive_path = ''
-
-        # initializing driver
-        driver = webdriver.Chrome()
-
-        # opening ferc eforms website
-        driver.get(url=f'https://ecollection.ferc.gov/submissionDetails/{xml_id}')
-
-        # button to click on 
-        xbrl_file_download_path = '/html/body/div[1]/app-root/submission-detail/div/div[2]/div[1]/div[1]/table/tbody/tr[1]/td[1]/span'
-        xbrl_file_download = driver.find_element(By.XPATH, xbrl_file_download_path)
-        xbrl_file_download.click()
-
-        # make the website chill for a bit
-        time.sleep(7)
-
-        # closing the browser
-        driver.quit()
-
-
-
 # letting the webpage chill out for a bit to allow for the eforms site to load
 # webpage loads in a little under 7 seconds so setting at 10 should be sufficient
 time.sleep(15)
