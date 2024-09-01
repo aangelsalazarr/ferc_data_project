@@ -23,13 +23,9 @@ def return_eform_filings(filing_ids: list):
         # setting up the download directory
         options = webdriver.ChromeOptions()
 
-        # adding the option that allows for downloading any file
-        # not working for some reason..
-        options.add_argument('--disable-features=InsecureDownloadWarnings')
-
         # path of where we want to store our data
         prefs = {"download.default_directory": r"C:\Users\aange\OneDrive\Desktop\Personal Python Projects\ferc_data_project\ferc_714_xml_files", 
-                 'safebrowsing.enablesd': False
+                 'safebrowsing.enabled': "false"
                  }
 
         # adding options to our chrome driver
