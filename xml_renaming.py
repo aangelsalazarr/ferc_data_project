@@ -32,17 +32,23 @@ def create_xml_filename(filepath):
     # end date underscored
     end_date_underscored = end_date.replace("-", "_")
 
+    # accessing the certifying date element
+    certif_date = tree.getroot().find('ferc:CertifyingOfficialDate', 
+                              namespaces={'ferc': 'http://ferc.gov/form/2024-04-01/ferc'})
+    
+    # certification official date underscored
+    certif_date_underscored = certif_date.text.replace("-", "_")
+
 
     # final filename
-    final_filename = f'ferc_714_{baan_underscored}_{end_date_underscored}'
+    final_filename = f'ferc_714_{baan_underscored}_{certif_date_underscored}'
 
     return final_filename
 
 # path to file we are testing
-test_file = "ferc_714_xml_files/spp-20231231.xbrl"
-
-spp_file = create_xml_filename(filepath=test_file)
-print(spp_file)
+# test_file = "ferc_714_xml_files/spp-20231231.xbrl"
+#spp_file = create_xml_filename(filepath=test_file)
+#print(spp_file)
 
 # function that renames a file...
 def process_xbrl_file(file_path, old_fname, folder_path):

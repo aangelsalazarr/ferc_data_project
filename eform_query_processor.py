@@ -5,7 +5,7 @@ import time
 from selenium.webdriver.chrome.options import Options
 
 # filing id test list
-filing_id_test_list = ['192310', '181864']
+filing_id_test_list = ['182066']
 
 # function that iterates through list to grab filings
 def return_eform_filings(filing_ids: list):
@@ -54,19 +54,22 @@ def return_eform_filings(filing_ids: list):
         year_text = year.text
 
         # xml file name 
-        xml_file_name = f'{company_name_text}_ferc_714_{quarter_period_text}{year_text}.xml'
+        xml_file_name = f'{company_name_text}_ferc_714_{quarter_period_text}{year_text}_{filing_id}.xml'
         print(xml_file_name)
 
         # xml download button
-        xml_button_path = '/html/body/div[1]/app-root/submission-detail/div/div[2]/div[2]/div[1]/table/tbody/tr[1]/td[1]/span'
+        # old button path: /html/body/div[1]/app-root/submission-detail/div/div[2]/div[2]/div[1]/table/tbody/tr[1]/td[1]/span
+        # new button path: /html/body/div[1]/app-root/submission-detail/div/div[2]/div[1]/div[1]/table/tbody/tr[1]/td[1]
+
+        xml_button_path = '/html/body/div[1]/app-root/submission-detail/div/div[2]/div[1]/div[1]/table/tbody/tr[1]/td[1]'
         download_xml_button = driver.find_element(By.XPATH, xml_button_path)
         download_xml_button.click()
 
         # let the website driver browser sleep/chill for a bit
-        time.sleep(7)
+        time.sleep(15)
 
         # closing the browser
         driver.quit()
         
 # test case
-# return_eform_filings(filing_ids=filing_id_test_list)
+return_eform_filings(filing_ids=filing_id_test_list)
