@@ -42,5 +42,5 @@ ferc_714_2023_list = ['192310', '192309', '192306', '192277',
                       '147056']
 
 # testing to see where the issue lies
-eqp.return_eform_filings(filing_ids=ferc_714_2023_list[5])
+eqp.return_eform_filings(filing_ids=ferc_714_2023_list)
 

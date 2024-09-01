@@ -5,7 +5,8 @@ import time
 from selenium.webdriver.chrome.options import Options
 
 # filing id test list
-filing_id_test_list = ['182066']
+# these are 2 test cases because each has different xpath for the xml donwload button
+filing_id_test_list = ['182066', '192310']
 
 # function that iterates through list to grab filings
 def return_eform_filings(filing_ids: list):
@@ -57,13 +58,21 @@ def return_eform_filings(filing_ids: list):
         xml_file_name = f'{company_name_text}_ferc_714_{quarter_period_text}{year_text}_{filing_id}.xml'
         print(xml_file_name)
 
-        # xml download button
-        # old button path: /html/body/div[1]/app-root/submission-detail/div/div[2]/div[2]/div[1]/table/tbody/tr[1]/td[1]/span
-        # new button path: /html/body/div[1]/app-root/submission-detail/div/div[2]/div[1]/div[1]/table/tbody/tr[1]/td[1]
+        # xml download button types, third div is the change in value
+        # button type A: /html/body/div[1]/app-root/submission-detail/div/div[2]/div[2]/div[1]/table/tbody/tr[1]/td[1]
+        # button type B: /html/body/div[1]/app-root/submission-detail/div/div[2]/div[1]/div[1]/table/tbody/tr[1]/td[1]
 
-        xml_button_path = '/html/body/div[1]/app-root/submission-detail/div/div[2]/div[1]/div[1]/table/tbody/tr[1]/td[1]'
-        download_xml_button = driver.find_element(By.XPATH, xml_button_path)
-        download_xml_button.click()
+        # trying button path A first then B if all else fails
+        xml_button_path_a = '/html/body/div[1]/app-root/submission-detail/div/div[2]/div[2]/div[1]/table/tbody/tr[1]/td[1]'
+        xml_button_path_b = '/html/body/div[1]/app-root/submission-detail/div/div[2]/div[1]/div[1]/table/tbody/tr[1]/td[1]'
+
+        try:
+            download_xml_button = driver.find_element(By.XPATH, xml_button_path_a)
+            download_xml_button.click()
+
+        except:
+            download_xml_button = driver.find_element(By.XPATH, xml_button_path_b)
+            download_xml_button.click()
 
         # let the website driver browser sleep/chill for a bit
         time.sleep(15)
@@ -72,4 +81,4 @@ def return_eform_filings(filing_ids: list):
         driver.quit()
         
 # test case
-return_eform_filings(filing_ids=filing_id_test_list)
+# return_eform_filings(filing_ids=filing_id_test_list)
