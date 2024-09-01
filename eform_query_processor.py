@@ -8,6 +8,9 @@ from selenium.webdriver.chrome.options import Options
 # these are 2 test cases because each has different xpath for the xml donwload button
 filing_id_test_list = ['182066', '192310']
 
+# test case where xrbl file ends with .xml 
+salt_river_test = ['192277']
+
 # function that iterates through list to grab filings
 def return_eform_filings(filing_ids: list):
     '''
@@ -20,8 +23,14 @@ def return_eform_filings(filing_ids: list):
         # setting up the download directory
         options = webdriver.ChromeOptions()
 
+        # adding the option that allows for downloading any file
+        # not working for some reason..
+        options.add_argument('--disable-features=InsecureDownloadWarnings')
+
         # path of where we want to store our data
-        prefs = {"download.default_directory": r"C:\Users\aange\OneDrive\Desktop\Personal Python Projects\ferc_data_project\ferc_714_xml_files"}
+        prefs = {"download.default_directory": r"C:\Users\aange\OneDrive\Desktop\Personal Python Projects\ferc_data_project\ferc_714_xml_files", 
+                 'safebrowsing.enablesd': False
+                 }
 
         # adding options to our chrome driver
         options.add_experimental_option("prefs", prefs)
@@ -75,10 +84,10 @@ def return_eform_filings(filing_ids: list):
             download_xml_button.click()
 
         # let the website driver browser sleep/chill for a bit
-        time.sleep(15)
+        time.sleep(20)
 
         # closing the browser
         driver.quit()
         
 # test case
-# return_eform_filings(filing_ids=filing_id_test_list)
+return_eform_filings(filing_ids=salt_river_test)
