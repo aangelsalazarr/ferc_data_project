@@ -16,6 +16,36 @@ import pandas as pd
 test_codes = ['20211012-5620', '20211012-5638']
 
 
+def queries_filter(dataframe, phrase, save_folder=None, docket_num=None, save_pls=True):
+    '''
+    purpose is to filter by checking whether the description contains a set of strings
+    included the ability to save for future once we have everything set up
+    '''
+
+    # cleaning up the accession number to begin with
+    dataframe['Accession_Num'] = dataframe['Accession'].str.split().str[0]
+
+    # processed query
+    dataframe_filtered = dataframe[dataframe['Description'].str.contains(f'{phrase}', 
+                                                                         case=False)]
+    
+    # resetting our index
+    dataframe_filtered = dataframe_filtered.reset_index()
+
+    # converting the accession new column into a list to extract
+    accessions_list = list(dataframe_filtered['Accession_Num'])
+
+    # checking to see if user wants to save data
+    if save_pls == True:
+        # saves filtered query df
+        dataframe_filtered.to_csv(f'{save_folder}/{docket_num}_filtered_queries.csv', index=False)
+
+    else: 
+        print('User has chosen to not save this data!')
+
+    return accessions_list
+
+
 def return_accession_files(accession_codes: list, download_path=None):
     '''
     iterate through a list of accessions and download files within the data 
@@ -60,4 +90,4 @@ def return_accession_files(accession_codes: list, download_path=None):
 
 
 # a quick check to make sure it works -- it does (:
-return_accession_files(accession_codes=test_codes)
+## return_accession_files(accession_codes=test_codes)
