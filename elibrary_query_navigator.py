@@ -15,6 +15,8 @@ import pandas as pd
 import io
 import math
 
+import elibrary_query_processor as eqp
+
 
 # setting up the docket number for which we want to make a query search for
 docket_numbers = ['RM21-17', 'RM22-7']
@@ -167,7 +169,7 @@ time.sleep(5)
 driver.quit()
 
 
-def queries_filter(dataframe, phrase, save=True):
+def queries_filter(dataframe, phrase, save_pls=True):
     '''
     purpose is to filter by checking whether the description contains a set of strings
     included the ability to save for future once we have everything set up
@@ -186,48 +188,16 @@ def queries_filter(dataframe, phrase, save=True):
     # converting the accession new column into a list to extract
     accessions_list = list(dataframe_filtered['Accession_Num'])
 
-    # saves filtered query df
-    dataframe_filtered.to_csv(f'process_check/{docket_numbers[1]}_filtered_queries_tbl.csv', index=False)
+    # checking to see if user wants to save data
+    if save_pls == True:
+        # saves filtered query df
+        dataframe_filtered.to_csv(f'process_check/{docket_numbers[1]}_filtered_queries_tbl.csv', index=False)
+
+    else: 
+        print('User has chosen to not save this data!')
 
     return accessions_list
 
-
-def gimme_comments(accession_codes: list):
-    '''
-    iterate through a list of accessions and download files within the data 
-    portal
-
-    !!: need to figure out how to change location of where files are stored because as of now it stored
-        in the downloads folder of computer vs storing in dedicated folder within my repo...
-    '''
-
-    for accession in accession_codes:
-        
-
-        # setting up the driver path
-        driver_path = ''
-
-        # creating a chrome session 
-        driver = webdriver.Chrome()
-
-        # opening ferc elibrary to the specific submission webpage
-
-        driver.get(f"https://elibrary.ferc.gov/eLibrary/filelist?accession_number={accession}")
-
-        # alow the website to load for a little bit
-        driver.implicitly_wait(10)      
-
-        # download all button 
-        download_pdf = driver.find_element(By.XPATH, 
-                                           '/html/body/app-root/html/body/div/main/app-filelist/section/div[1]/table/tbody/tr/td[1]/div/a')
-
-        download_pdf.click()
-
-        # making the website chill for a bit
-        time.sleep(3)
-
-        # closing the driver window now
-        driver.quit()
 
 
 #####################TEST######################
@@ -235,4 +205,4 @@ def gimme_comments(accession_codes: list):
 step_1 = queries_filter(dataframe=master_df, phrase="Comment")
 
 # step 2: grab comment files
-gimme_comments(accession_codes=step_1[:2])
+eqp.return_accession_files(accession_codes=step_1[:2])

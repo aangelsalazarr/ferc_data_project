@@ -12,33 +12,36 @@ import time
 import pandas as pd
 
 
-'''
-This function allows a user to iterate through accession codes and return files within 
-FERC's elibrary portal
-
-'''
-
 # test accession codes
 test_codes = ['20211012-5620', '20211012-5638']
 
 
-def gimme_comments(accession_codes: list):
+def return_accession_files(accession_codes: list, download_path=None):
     '''
     iterate through a list of accessions and download files within the data 
     portal
     '''
 
     for accession in accession_codes:
-        
+
+        # setting up the download directory changes
+        options = webdriver.ChromeOptions()
+
+        # path of where we want to reroute downloads to 
+        prefs = {'download.default_directory': fr'{download_path}', 
+                 'safebrowsing.enabled':'false'
+                 }
+
+        # adding options to our chrome driver
+        options.add_experimental_option('prefs', prefs)
 
         # setting up the driver path
         driver_path = ''
 
         # creating a chrome session 
-        driver = webdriver.Chrome()
+        driver = webdriver.Chrome(options=options)
 
         # opening ferc elibrary to the specific submission webpage
-
         driver.get(f"https://elibrary.ferc.gov/eLibrary/filelist?accession_number={accession}")
 
         # alow the website to load for a little bit
@@ -46,8 +49,7 @@ def gimme_comments(accession_codes: list):
 
         # download all button 
         download_pdf = driver.find_element(By.XPATH, 
-                                           '/html/body/app-root/html/body/div/main/app-filelist/section/div[1]/table/tbody/tr/td[1]/div/a')
-
+                                           '/html/body/app-root/html/body/div/main/app-filelist/section/div[1]/table/tbody/tr/td[1]')
         download_pdf.click()
 
         # making the website chill for a bit
@@ -56,5 +58,6 @@ def gimme_comments(accession_codes: list):
         # closing the driver window now
         driver.quit()
 
+
 # a quick check to make sure it works -- it does (:
-# gimme_comments(accession_codes=test_codes)
+return_accession_files(accession_codes=test_codes)
