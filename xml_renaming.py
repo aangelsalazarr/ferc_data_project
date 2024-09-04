@@ -50,6 +50,33 @@ def create_xml_filename(filepath):
 #spp_file = create_xml_filename(filepath=test_file)
 #print(spp_file)
 
+def change_xbrl_xml_fname(folder_path, file_path, old_fname):
+    '''
+    Args: 
+    folder_path: this is where the file exists within a given folder
+    file_path: this is the name of the file itself 
+    old_fname: moreso thought of as the original name
+    '''
+
+    # let user know that the file is being processed
+    print(f'Processing file: {file_path}')
+
+    try:
+        '''
+        trying to change the name and accounting for duplicate names
+        '''
+        # updated file path using context from the file itself
+        updated_filepath = create_xml_filename(fil)
+
+
+    except Exception as e:
+
+        '''
+        in the case that we are getting an error in our function application
+        '''
+
+        print(f'Error: {e}')
+
 # function that renames a file...
 def process_xbrl_file(file_path, old_fname, folder_path):
 
