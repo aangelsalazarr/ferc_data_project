@@ -53,17 +53,32 @@ def create_xml_filename(filepath):
 # function that renames a file...
 def process_xbrl_file(file_path, old_fname, folder_path):
 
+    '''
+    if rename yields error because file with same name exists, then just 
+    '''
+
     # Your function to process the XBRL file
     print(f"Processing file: {file_path}")
+    try:
+        # grabbing xml file rename 
+        created_fname = create_xml_filename(filepath=file_path)
 
-    # grabbing xml file rename 
-    created_fname = create_xml_filename(filepath=file_path)
+        # setting up the true file path
+        true_file_path = f'{folder_path}/{created_fname}'
 
-    # setting up the true file path
-    true_file_path = f'{folder_path}/{created_fname}'
+        # allows us to number file names that will end up being the same
+        int = 1
 
-    # renaming file
-    os.rename(old_fname, true_file_path)
+        # renaming file
+        new_file_path = os.rename(old_fname, f'{true_file_path}')
+
+        # if filepath already exists, then just add v{int} to the end
+        while os.path.exists(new_file_path):
+            new_file_path = os.rename(old_fname, f'{true_file_path}_v{str(int)}')
+            int += 1
+    
+    except Exception as e:
+        print(f'Error: {e}')
 
 
 # now the real thing beginning with our folder path
@@ -77,7 +92,12 @@ for file in files:
 
     # check if file has a xbrl extenstion
     if file.endswith('.xbrl'):
+        
+        # in essence, join folder path and specific file so it can be 
+        # correctly referenced
         file_path= os.path.join(folderpath, file)
+        
+        #process the given file
         process_xbrl_file(file_path=file_path, 
                           old_fname=file_path, 
                           folder_path=folderpath)
