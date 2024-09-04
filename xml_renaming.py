@@ -101,3 +101,13 @@ for file in files:
         process_xbrl_file(file_path=file_path, 
                           old_fname=file_path, 
                           folder_path=folderpath)
+        
+
+    if file.endswith('.xml'):
+
+        file_path(os.path.join(folderpath, file))
+
+        # processing file to rename it accordingly
+        process_xbrl_file(file_path=file_path, 
+                          old_fname=file_path, 
+                          folder_path=folderpath)
