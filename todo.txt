@@ -1,0 +1,7 @@
+in essence, we have a dataframe in csv format that shows us the list 
+of the files we are going to download. 
+so in essence, download all files and this will show 
+us when the file was downloaded. then use this to sort the directory
+of files to match the dataframe we used that shows us what filings to grab
+and now iterate through each row of df, grab unique data, 
+and use this data to rename the file
