@@ -38,7 +38,12 @@ Document Structure
 [Canary Media](https://www.potomaceconomics.com/)
 -----------------------------------------------------------
 * [FERC passed big transmission reforms; now the hard part begins](https://www.canarymedia.com/articles/transmission/ferc-passed-big-transmission-reforms-now-the-hard-part-begins)
-    * Insert Derived Question
+    * What is the likelihood of Order 1920 meeting legal challenges in the future? If high, why is that the case? [Q]
+    * What is the biggest challenge of Order 1920? [Q]
+    * Are there any important deadlines for impacted entities as a result of this ruling? [Q]
+    * Regional Transmission Operators (RTOs) must craft plans to comply with the order and submit them for FERC review by Spring 2025. [S]
+    * Which regional operators are most prepared in being in compliance with FERC 1920 ruling? [Q]
+
 
 [RMI](https://rmi.org/)
 -----------------------------------------------------------
