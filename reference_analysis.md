@@ -35,9 +35,9 @@ Document Structure
 * [Insert Report]()
     * Insert Derived Question
 
-[Potomac Economics](https://www.potomaceconomics.com/)
+[Canary Media](https://www.potomaceconomics.com/)
 -----------------------------------------------------------
-* [Insert Report]()
+* [FERC passed big transmission reforms; now the hard part begins](https://www.canarymedia.com/articles/transmission/ferc-passed-big-transmission-reforms-now-the-hard-part-begins)
     * Insert Derived Question
 
 [RMI](https://rmi.org/)
