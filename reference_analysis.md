@@ -39,3 +39,21 @@ Document Structure
 -----------------------------------------------------------
 * [Insert Report]()
     * Insert Derived Question
+
+[RMI](https://rmi.org/)
+-----------------------------------------------------------
+* [Understanding FERC's Order 1920](https://rmi.org/insight/understanding-fercs-order-1920/)
+    * Order 1920 requires regions to establish a mandatory default cost allocation methodology that is consistent with Order 1000. [S]
+    * Transmission planners must conduct long-term planning at least every five years, with projects selected by year three in each cycle. [S]
+    * Order 1920 requires entities to include the following seven factors in scenario analysis: [S]
+        * Federal, state, tribal, and local laws and regulations affecting the resource mix and demand.
+        * Federal, state, tribal and local laws and regulation affecting decarbonization and electrification. 
+        * State-approved Integrated Resource Plans (IRPs) and expected supply obligations for Load-Serving Entities (LSEs).
+        * Trends in fuel costs and in the cost, performance, and availability of generation, electric storage resources, and building and transportation electrification technologies.
+        * Resource retirements such as legislatively mandated closures or economic retirements driven by regulations. FERC allows each region to decide how to treat retirements. 
+        * Generator interconnection requests and withdrawals. 
+        * Utility and corporate commitments and federal, state, tribal and local policy goals. 
+    * How are Order 1920 and Order 1000 connected? [Q]
+    * How does Order 1920 impact entities requirements related to cost allocation analysis? [Q]
+
+
