@@ -66,7 +66,7 @@ def change_xbrl_xml_fname(folder_path, file_path, old_fname):
         trying to change the name and accounting for duplicate names
         '''
         # updated file path using context from the file itself
-        updated_filepath = create_xml_filename(fil)
+        updated_filepath = create_xml_filename(file)
 
 
     except Exception as e:
