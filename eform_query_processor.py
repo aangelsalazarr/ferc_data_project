@@ -12,10 +12,13 @@ filing_id_test_list = ['182066', '192310']
 salt_river_test = ['192277']
 
 # function that iterates through list to grab filings
-def return_eform_filings(filing_ids: list):
+def return_eform_filings(filing_ids: list, save_path: str):
     '''
     iterate through list and return files of data 
     provide list of filing ids and then also a string of where you would like to save files
+    
+    save path example
+        
     '''
 
     for filing_id in filing_ids:
@@ -24,7 +27,7 @@ def return_eform_filings(filing_ids: list):
         options = webdriver.ChromeOptions()
 
         # path of where we want to store our data
-        prefs = {"download.default_directory": r"C:\Users\aange\OneDrive\Desktop\Personal Python Projects\ferc_data_project\ferc_714_xml_files", 
+        prefs = {"download.default_directory": fr"{save_path}", 
                  'safebrowsing.enabled': "false"
                  }
 
