@@ -17,8 +17,7 @@ def return_eform_filings(filing_ids: list, save_path: str):
     iterate through list and return files of data 
     provide list of filing ids and then also a string of where you would like to save files
     
-    save path example
-        
+    save path example    
     '''
 
     for filing_id in filing_ids:
