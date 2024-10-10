@@ -42,7 +42,7 @@ Document Structure
     * What is the biggest challenge of Order 1920? [Q]
     * Are there any important deadlines for impacted entities as a result of this ruling? [Q]
     * Regional Transmission Operators (RTOs) must craft plans to comply with the order and submit them for FERC review by Spring 2025. [S]
-    * Which regional operators are most prepared in being in compliance with FERC 1920 ruling? [Q]
+    * Which regional operators are most prepared in being in compliance with FERC 1920 ruling? [Q]  
 
 
 [RMI](https://rmi.org/)
