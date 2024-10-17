@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xbrl xmlns:ferc="http://ferc.gov/form/2024-04-01/ferc" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:utr="http://www.xbrl.org/2009/utr" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.xbrl.org/2003/instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:srt-types="http://www.fasb.org/srt-types/2019-01-31" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <link:schemaRef xlink:type="simple" xlink:href="https://eCollection.ferc.gov/taxonomy/form714/2024-04-01/form/form714/form-714_2024-04-01.xsd" />
+    <!--Created by eFinForms, Powered by Systrends USA, Generated At Fri 31 May 2024 22:56:12 GMT-->
+    <unit id="u-01">
+        <measure>pure</measure>
+    </unit>
+    <unit id="u-02">
+        <measure>utr:MW</measure>
+    </unit>
+    <unit id="u-03">
+        <measure>utr:MWh</measure>
+    </unit>
+    <unit id="u-04">
+        <measure>utr:kV</measure>
+    </unit>
+    <context id="c-06">
+        <entity>
+            <identifier scheme="http://www.ferc.gov/CID" >C011381</identifier>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+    <context id="c-07">
+        <entity>
+            <identifier scheme="http://www.ferc.gov/CID" >C011381</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="ferc:GeneratingPlantsIncludedInReportingBalancingAuthorityAreaAxis">
+                    <ferc:GeneratingPlantsIncludedInReportingBalancingAuthorityAreaDomain>GRIF</ferc:GeneratingPlantsIncludedInReportingBalancingAuthorityAreaDomain>
+                </xbrldi:typedMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+    <context id="c-08">
+        <entity>
+            <identifier scheme="http://www.ferc.gov/CID" >C011381</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:JanuaryMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+    <context id="c-09">
+        <entity>
+            <identifier scheme="http://www.ferc.gov/CID" >C011381</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:AprilMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+    <context id="c-10">
+        <entity>
+            <identifier scheme="http://www.ferc.gov/CID" >C011381</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:AugustMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+    <context id="c-11">
+        <entity>
+            <identifier scheme="http://www.ferc.gov/CID" >C011381</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:DecemberMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+    <context id="c-12">
+        <entity>
+            <identifier scheme="http://www.ferc.gov/CID" >C011381</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:FebruaryMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+    <context id="c-13">
+        <entity>
+            <identifier scheme="http://www.ferc.gov/CID" >C011381</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:JulyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+    <context id="c-14">
+        <entity>
+            <identifier scheme="http://www.ferc.gov/CID" >C011381</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:JuneMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+    <context id="c-15">
+        <entity>
+            <identifier scheme="http://www.ferc.gov/CID" >C011381</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:MarchMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+    <context id="c-16">
+        <entity>
+            <identifier scheme="http://www.ferc.gov/CID" >C011381</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:MayMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+    <context id="c-17">
+        <entity>
+            <identifier scheme="http://www.ferc.gov/CID" >C011381</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:NovemberMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+    <context id="c-18">
+        <entity>
+            <identifier scheme="http://www.ferc.gov/CID" >C011381</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:OctoberMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+    <context id="c-19">
+        <entity>
+            <identifier scheme="http://www.ferc.gov/CID" >C011381</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:SeptemberMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+    <context id="c-20">
+        <entity>
+            <identifier scheme="http://www.ferc.gov/CID" >C011381</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="ferc:AdjacentBalancingAuthorityAreaInterconnectionsAxis">
+                    <ferc:AdjacentBalancingAuthorityAreaInterconnectionsDomain>GRIF</ferc:AdjacentBalancingAuthorityAreaInterconnectionsDomain>
+                </xbrldi:typedMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+    <context id="c-21">
+        <entity>
+            <identifier scheme="http://www.ferc.gov/CID" >C011381</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="ferc:BalancingAuthorityAreaScheduledAndActualInterchangeAxis">
+                    <ferc:BalancingAuthorityAreaScheduledAndActualInterchangeDomain>GRIF</ferc:BalancingAuthorityAreaScheduledAndActualInterchangeDomain>
+                </xbrldi:typedMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2023-01-01</startDate>
+            <endDate>2023-12-31</endDate>
+        </period>
+    </context>
+    <ferc:PlantName id="f-01" contextRef="c-07">Griffith Energy</ferc:PlantName>
+    <ferc:ReportPeriod id="f-02" contextRef="c-06">Q4</ferc:ReportPeriod>
+    <ferc:SubmissionType id="f-03" contextRef="c-06">O</ferc:SubmissionType>
+    <ferc:CompanyIdentifier id="f-04" contextRef="c-06">C011381</ferc:CompanyIdentifier>
+    <ferc:FormType id="f-05" contextRef="c-06">714</ferc:FormType>
+    <ferc:BalancingAuthorityAreaFlag id="f-06" contextRef="c-06">true</ferc:BalancingAuthorityAreaFlag>
+    <ferc:BalancingAuthorityAreaName id="f-07" contextRef="c-06">Griffith BA (GRIF)</ferc:BalancingAuthorityAreaName>
+    <ferc:CertifyingOfficialDate id="f-08" contextRef="c-06">2024-05-31</ferc:CertifyingOfficialDate>
+    <ferc:EmailOfContactPerson id="f-09" contextRef="c-06">antonio.franco@gridforce.com</ferc:EmailOfContactPerson>
+    <ferc:NameOfCertifyingOfficial id="f-10" contextRef="c-06">CJ Ingersoll</ferc:NameOfCertifyingOfficial>
+    <ferc:NameOfContactPerson id="f-11" contextRef="c-06">Antonio Franco</ferc:NameOfContactPerson>
+    <ferc:RespondentIdentificationCode id="f-12" contextRef="c-06">11381</ferc:RespondentIdentificationCode>
+    <ferc:RespondentMailingAddress id="f-13" contextRef="c-06">1301 Fannin St
+Suite 1000
+Houston, TX 77002</ferc:RespondentMailingAddress>
+    <ferc:TelephoneOfContactPerson id="f-14" contextRef="c-06">713-332-2912</ferc:TelephoneOfContactPerson>
+    <ferc:TitleOfCertifyingOfficial id="f-15" contextRef="c-06">President</ferc:TitleOfCertifyingOfficial>
+    <ferc:TitleOfContactPerson id="f-16" contextRef="c-06">Director Reliability Compliance</ferc:TitleOfContactPerson>
+    <ferc:UnitDispatchNotBasedOnEconomicDispatchOfThermalUnits id="f-17" contextRef="c-06">true</ferc:UnitDispatchNotBasedOnEconomicDispatchOfThermalUnits>
+    <ferc:RespondentLegalName id="f-23" contextRef="c-06">Griffith Energy (GRIF)</ferc:RespondentLegalName>
+    <ferc:VendorName id="f-24" contextRef="c-06">Systrends</ferc:VendorName>
+    <ferc:ElectricUtilityName id="f-25" contextRef="c-07">Griffith BA</ferc:ElectricUtilityName>
+    <ferc:BalancingAuthorityAreaInterconnectionLineOrBusNames id="f-26" contextRef="c-20">WAPA Lower Colorado Mead Substation</ferc:BalancingAuthorityAreaInterconnectionLineOrBusNames>
+    <ferc:NameOfAdjacentBalancingAuthorityArea id="f-27" contextRef="c-20">Griffith BA</ferc:NameOfAdjacentBalancingAuthorityArea>
+    <ferc:NameOfBalancingAuthorityArea id="f-28" contextRef="c-21">Griffith BA</ferc:NameOfBalancingAuthorityArea>
+    <ferc:ReportYear id="f-32" contextRef="c-06" unitRef="u-01" decimals="0">2023</ferc:ReportYear>
+    <ferc:PlantAvailableCapacityAtTheHourOfTheAnnualPeakDemandOnNetEnergyForLoad id="f-33" contextRef="c-07" unitRef="u-02" xsi:nil="true" />
+    <ferc:IntegratedNetLoadOnThePlantAtTheHourOfTheAnnualPeakDemandBasedOnNetEnergyForLoad id="f-34" contextRef="c-07" unitRef="u-02" xsi:nil="true" />
+    <ferc:PlantsAvailableCapability id="f-35" contextRef="c-08" unitRef="u-02" xsi:nil="true" />
+    <ferc:UnavailableCapabilityDueToPlannedOutageAndDerating id="f-36" contextRef="c-08" unitRef="u-02" xsi:nil="true" />
+    <ferc:UnavailableCapabilityDueToUnplannedOutageAndDerating id="f-37" contextRef="c-08" unitRef="u-02" xsi:nil="true" />
+    <ferc:UnavailableCapabilityDueToOtherOutageAndDerating id="f-38" contextRef="c-08" unitRef="u-02" xsi:nil="true" />
+    <ferc:NetCapabilityFromPlants id="f-39" contextRef="c-08" unitRef="u-02" xsi:nil="true" />
+    <ferc:ExternalToTheBalancingAuthorityAreaNetUnitOrFirmCapabilityAvailable id="f-40" contextRef="c-08" unitRef="u-02" xsi:nil="true" />
+    <ferc:ExternalToTheBalancingAuthorityAreaNetUnitOrFirmCapabilityNotAvailable id="f-41" contextRef="c-08" unitRef="u-02" xsi:nil="true" />
+    <ferc:NetCapabilityAtTheTimeOfTheMonthlyPeakDemand id="f-42" contextRef="c-08" unitRef="u-02" xsi:nil="true" />
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration id="f-43" contextRef="c-08" unitRef="u-03" decimals="0">168072</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange id="f-44" contextRef="c-08" unitRef="u-03" decimals="0">-168072</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad id="f-45" contextRef="c-08" unitRef="u-03" decimals="0">0</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration id="f-46" contextRef="c-09" unitRef="u-03" decimals="0">341484</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange id="f-47" contextRef="c-09" unitRef="u-03" decimals="0">-341484</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad id="f-48" contextRef="c-09" unitRef="u-03" decimals="0">0</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration id="f-49" contextRef="c-10" unitRef="u-03" decimals="0">0</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange id="f-50" contextRef="c-10" unitRef="u-03" decimals="0">0</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad id="f-51" contextRef="c-10" unitRef="u-03" decimals="0">0</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration id="f-52" contextRef="c-11" unitRef="u-03" decimals="0">0</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange id="f-53" contextRef="c-11" unitRef="u-03" decimals="0">0</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad id="f-54" contextRef="c-11" unitRef="u-03" decimals="0">0</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration id="f-55" contextRef="c-12" unitRef="u-03" decimals="0">277498</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange id="f-56" contextRef="c-12" unitRef="u-03" decimals="0">-277498</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad id="f-57" contextRef="c-12" unitRef="u-03" decimals="0">0</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration id="f-58" contextRef="c-13" unitRef="u-03" decimals="0">127</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange id="f-59" contextRef="c-13" unitRef="u-03" decimals="0">-127</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad id="f-60" contextRef="c-13" unitRef="u-03" decimals="0">0</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration id="f-61" contextRef="c-14" unitRef="u-03" decimals="0">908</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange id="f-62" contextRef="c-14" unitRef="u-03" decimals="0">-908</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad id="f-63" contextRef="c-14" unitRef="u-03" decimals="0">0</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration id="f-64" contextRef="c-15" unitRef="u-03" decimals="0">190110</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange id="f-65" contextRef="c-15" unitRef="u-03" decimals="0">-190110</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad id="f-66" contextRef="c-15" unitRef="u-03" decimals="0">0</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration id="f-67" contextRef="c-16" unitRef="u-03" decimals="0">322169</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange id="f-68" contextRef="c-16" unitRef="u-03" decimals="0">-322169</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad id="f-69" contextRef="c-16" unitRef="u-03" decimals="0">0</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration id="f-70" contextRef="c-17" unitRef="u-03" decimals="0">1026</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange id="f-71" contextRef="c-17" unitRef="u-03" decimals="0">-1026</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad id="f-72" contextRef="c-17" unitRef="u-03" decimals="0">0</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration id="f-73" contextRef="c-18" unitRef="u-03" decimals="0">360074</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange id="f-74" contextRef="c-18" unitRef="u-03" decimals="0">-360074</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad id="f-75" contextRef="c-18" unitRef="u-03" decimals="0">0</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration id="f-76" contextRef="c-19" unitRef="u-03" decimals="0">30</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange id="f-77" contextRef="c-19" unitRef="u-03" decimals="0">-30</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad id="f-78" contextRef="c-19" unitRef="u-03" decimals="0">0</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad>
+    <ferc:ActualInterchangeBetweenAdjacentBalancingAuthorityAreasDelivered id="f-79" contextRef="c-06" unitRef="u-03" decimals="0">1661498</ferc:ActualInterchangeBetweenAdjacentBalancingAuthorityAreasDelivered>
+    <ferc:ActualInterchangeBetweenAdjacentBalancingAuthorityAreasReceived id="f-80" contextRef="c-06" unitRef="u-03" decimals="0">0</ferc:ActualInterchangeBetweenAdjacentBalancingAuthorityAreasReceived>
+    <ferc:ScheduledInterchangeBetweenBalancingAuthorityAreasDelivered id="f-81" contextRef="c-06" unitRef="u-03" decimals="0">1669347</ferc:ScheduledInterchangeBetweenBalancingAuthorityAreasDelivered>
+    <ferc:ScheduledInterchangeBetweenBalancingAuthorityAreasReceived id="f-82" contextRef="c-06" unitRef="u-03" decimals="0">10585</ferc:ScheduledInterchangeBetweenBalancingAuthorityAreasReceived>
+    <ferc:ActualInterchangeBetweenAdjacentBalancingAuthorityAreasDelivered id="f-83" contextRef="c-21" unitRef="u-03" decimals="0">1661498</ferc:ActualInterchangeBetweenAdjacentBalancingAuthorityAreasDelivered>
+    <ferc:ActualInterchangeBetweenAdjacentBalancingAuthorityAreasReceived id="f-84" contextRef="c-21" unitRef="u-03" decimals="0">0</ferc:ActualInterchangeBetweenAdjacentBalancingAuthorityAreasReceived>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration id="f-85" contextRef="c-06" unitRef="u-03" decimals="0">1661498</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange id="f-86" contextRef="c-06" unitRef="u-03" decimals="0">-1661498</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+    <ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad id="f-87" contextRef="c-06" unitRef="u-03" decimals="0">0</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetEnergyForLoad>
+    <ferc:ScheduledInterchangeBetweenBalancingAuthorityAreasDelivered id="f-88" contextRef="c-21" unitRef="u-03" decimals="0">1669347</ferc:ScheduledInterchangeBetweenBalancingAuthorityAreasDelivered>
+    <ferc:ScheduledInterchangeBetweenBalancingAuthorityAreasReceived id="f-89" contextRef="c-21" unitRef="u-03" decimals="0">10585</ferc:ScheduledInterchangeBetweenBalancingAuthorityAreasReceived>
+    <ferc:LineOrBusVoltage id="f-90" contextRef="c-20" unitRef="u-04" decimals="0">230</ferc:LineOrBusVoltage>
+    <link:footnoteLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+        <link:loc xlink:href="#f-33" xlink:label="f-33_lbl" xlink:type="locator" />
+        <link:loc xlink:href="#f-34" xlink:label="f-34_lbl" xlink:type="locator" />
+        <link:loc xlink:href="#f-35" xlink:label="f-35_lbl" xlink:type="locator" />
+        <link:loc xlink:href="#f-36" xlink:label="f-36_lbl" xlink:type="locator" />
+        <link:loc xlink:href="#f-37" xlink:label="f-37_lbl" xlink:type="locator" />
+        <link:loc xlink:href="#f-38" xlink:label="f-38_lbl" xlink:type="locator" />
+        <link:loc xlink:href="#f-39" xlink:label="f-39_lbl" xlink:type="locator" />
+        <link:loc xlink:href="#f-40" xlink:label="f-40_lbl" xlink:type="locator" />
+        <link:loc xlink:href="#f-41" xlink:label="f-41_lbl" xlink:type="locator" />
+        <link:loc xlink:href="#f-42" xlink:label="f-42_lbl" xlink:type="locator" />
+        <link:loc xlink:href="#f-43" xlink:label="f-43_lbl" xlink:type="locator" />
+        <link:loc xlink:href="#f-46" xlink:label="f-46_lbl" xlink:type="locator" />
+        <link:loc xlink:href="#f-49" xlink:label="f-49_lbl" xlink:type="locator" />
+        <link:loc xlink:href="#f-55" xlink:label="f-55_lbl" xlink:type="locator" />
+        <link:loc xlink:href="#f-58" xlink:label="f-58_lbl" xlink:type="locator" />
+        <link:loc xlink:href="#f-61" xlink:label="f-61_lbl" xlink:type="locator" />
+        <link:loc xlink:href="#f-64" xlink:label="f-64_lbl" xlink:type="locator" />
+        <link:loc xlink:href="#f-67" xlink:label="f-67_lbl" xlink:type="locator" />
+        <link:loc xlink:href="#f-70" xlink:label="f-70_lbl" xlink:type="locator" />
+        <link:loc xlink:href="#f-73" xlink:label="f-73_lbl" xlink:type="locator" />
+        <link:loc xlink:href="#f-76" xlink:label="f-76_lbl" xlink:type="locator" />
+        <link:loc xlink:href="#f-84" xlink:label="f-84_lbl" xlink:type="locator" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-33_lbl" order="0" xlink:to="ft-33_23364_lbl" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-34_lbl" order="0" xlink:to="ft-34_23365_lbl" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-35_lbl" order="0" xlink:to="ft-35_23366_lbl" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-36_lbl" order="0" xlink:to="ft-36_23367_lbl" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-37_lbl" order="0" xlink:to="ft-37_23368_lbl" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-38_lbl" order="0" xlink:to="ft-38_23369_lbl" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-39_lbl" order="0" xlink:to="ft-39_23370_lbl" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-40_lbl" order="0" xlink:to="ft-40_23371_lbl" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-41_lbl" order="0" xlink:to="ft-41_23372_lbl" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-42_lbl" order="0" xlink:to="ft-42_23373_lbl" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-43_lbl" order="0" xlink:to="ft-43_23374_lbl" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-46_lbl" order="0" xlink:to="ft-46_23375_lbl" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-49_lbl" order="0" xlink:to="ft-49_23376_lbl" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-55_lbl" order="0" xlink:to="ft-55_23377_lbl" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-58_lbl" order="0" xlink:to="ft-58_23378_lbl" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-61_lbl" order="0" xlink:to="ft-61_23379_lbl" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-64_lbl" order="0" xlink:to="ft-64_23380_lbl" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-67_lbl" order="0" xlink:to="ft-67_23381_lbl" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-70_lbl" order="0" xlink:to="ft-70_23382_lbl" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-73_lbl" order="0" xlink:to="ft-73_23383_lbl" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-76_lbl" order="0" xlink:to="ft-76_23384_lbl" />
+        <link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="f-84_lbl" order="0" xlink:to="ft-84_23385_lbl" />
+        <link:footnote xlink:label="ft-33_23364_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p><br /></p></link:footnote>
+        <link:footnote xlink:label="ft-34_23365_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p><br /></p></link:footnote>
+        <link:footnote xlink:label="ft-35_23366_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p><br /></p></link:footnote>
+        <link:footnote xlink:label="ft-36_23367_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p><br /></p></link:footnote>
+        <link:footnote xlink:label="ft-37_23368_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p><br /></p></link:footnote>
+        <link:footnote xlink:label="ft-38_23369_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p><br /></p></link:footnote>
+        <link:footnote xlink:label="ft-39_23370_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p><br /></p></link:footnote>
+        <link:footnote xlink:label="ft-40_23371_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p><br /></p></link:footnote>
+        <link:footnote xlink:label="ft-41_23372_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p><br /></p></link:footnote>
+        <link:footnote xlink:label="ft-42_23373_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p><br /></p></link:footnote>
+        <link:footnote xlink:label="ft-43_23374_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p>There were dynamic transfers going out to other BAs which totaled 10,957 MW/Hr not reported as GRIF's Net Gen.</p></link:footnote>
+        <link:footnote xlink:label="ft-46_23375_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p><span style="color: rgba(51, 51, 51, 1); font-family: Roboto">There were dynamic transfers going out to other BAs which totaled 13,798 MW/Hr not reported as GRIF's Net Gen.</span><br /></p></link:footnote>
+        <link:footnote xlink:label="ft-49_23376_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p><span style="color: rgba(51, 51, 51, 1); font-family: Roboto"><span style="color: rgba(51, 51, 51, 1); font-family: Roboto">There were dynamic transfers going out to other BAs which totaled 367,117 MW/Hr not reported as GRIF's Net Gen.</span></span><br /></p></link:footnote>
+        <link:footnote xlink:label="ft-55_23377_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p><span style="color: rgba(51, 51, 51, 1); font-family: Roboto">There were dynamic transfers going out to other BAs which totaled 24,688 MW/Hr not reported as GRIF's Net Gen.</span><br /></p></link:footnote>
+        <link:footnote xlink:label="ft-58_23378_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p><span style="color: rgba(51, 51, 51, 1); font-family: Roboto">There were dynamic transfers going out to other BAs which totaled 360,883 MW/Hr not reported as GRIF's Net Gen.</span><br /></p></link:footnote>
+        <link:footnote xlink:label="ft-61_23379_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p><span style="color: rgba(51, 51, 51, 1); font-family: Roboto">There were dynamic transfers going out to other BAs which totaled 224,345 MW/Hr not reported as GRIF's Net Gen.</span><br /></p></link:footnote>
+        <link:footnote xlink:label="ft-64_23380_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p><span style="color: rgba(51, 51, 51, 1); font-family: Roboto">There were dynamic transfers going out to other BAs which totaled 22,259 MW/Hr not reported as GRIF's Net Gen.</span><br /></p></link:footnote>
+        <link:footnote xlink:label="ft-67_23381_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p><span style="color: rgba(51, 51, 51, 1); font-family: Roboto">There were dynamic transfers going out to other BAs which totaled 15,387 MW/Hr not reported as GRIF's Net Gen.</span><br /></p></link:footnote>
+        <link:footnote xlink:label="ft-70_23382_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p><span style="color: rgba(51, 51, 51, 1); font-family: Roboto">There were dynamic transfers going out to other BAs which totaled 24 MW/Hr not reported as GRIF's Net Gen.</span><br /></p></link:footnote>
+        <link:footnote xlink:label="ft-73_23383_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p><span style="color: rgba(51, 51, 51, 1); font-family: Roboto">There were dynamic transfers going out to other BAs which totaled 15,156 MW/Hr not reported as GRIF's Net Gen.</span></p></link:footnote>
+        <link:footnote xlink:label="ft-76_23384_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p><span style="color: rgba(51, 51, 51, 1); font-family: Roboto">There were dynamic transfers going out to other BAs which totaled 306,318 MW/Hr not reported as GRIF's Net Gen.</span><br /></p></link:footnote>
+        <link:footnote xlink:label="ft-84_23385_lbl" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US" xlink:type="resource" xmlns="http://www.w3.org/1999/xhtml"><p>There was a total of 2,975 MW/Hr received for station service and assistance reserves.</p></link:footnote>
+    </link:footnoteLink>
+</xbrl>

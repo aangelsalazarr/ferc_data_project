@@ -1,0 +1,4113 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<xbrl:xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrl="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:utr="http://www.xbrl.org/2009/utr" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ferc="http://ferc.gov/form/2024-04-01/ferc" xmlns:ferc-form-714="http://ferc.gov/form/2024-04-01/ferc-form-714">
+  <link:schemaRef xlink:type="simple" xlink:href="https://eCollection.ferc.gov/taxonomy/form714/2024-04-01/form/form714/form-714_2024-04-01.xsd" />
+  <xbrl:unit id="pure">
+    <xbrl:measure>xbrl:pure</xbrl:measure>
+  </xbrl:unit>
+  <xbrl:unit id="MW">
+    <xbrl:measure>utr:MW</xbrl:measure>
+  </xbrl:unit>
+  <xbrl:unit id="MWh">
+    <xbrl:measure>utr:MWh</xbrl:measure>
+  </xbrl:unit>
+  <xbrl:context id="From2023-01-01To2023-12-31">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-01</xbrl:startDate>
+      <xbrl:endDate>2023-12-31</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-01To2023-12-31_ElectricUtilitiesThatComposeThePlanningAreaAxis_1">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+      <xbrl:segment>
+        <xbrldi:typedMember dimension="ferc:ElectricUtilitiesThatComposeThePlanningAreaAxis">
+          <ferc:ElectricUtilitiesThatComposeThePlanningAreaDomain>1</ferc:ElectricUtilitiesThatComposeThePlanningAreaDomain>
+        </xbrldi:typedMember>
+      </xbrl:segment>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-01</xbrl:startDate>
+      <xbrl:endDate>2023-12-31</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T010000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T01:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T020000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T02:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T030000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T03:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T040000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T04:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T050000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T05:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T060000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T06:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T070000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T07:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T080000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T08:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T090000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T09:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T100000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T10:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T110000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T11:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T120000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T12:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T130000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T13:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T140000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T14:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T150000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T15:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T160000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T16:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T170000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T17:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T180000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T18:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T190000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T19:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T200000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T20:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T210000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T21:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T220000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T22:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-01T230000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-01T23:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="Asof2023-01-02T000000">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:instant>2023-01-02T00:00:00</xbrl:instant>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_1">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+      <xbrl:segment>
+        <xbrldi:typedMember dimension="ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis">
+          <ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadDomain>1</ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadDomain>
+        </xbrldi:typedMember>
+      </xbrl:segment>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-01</xbrl:startDate>
+      <xbrl:endDate>2023-12-31</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_2">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+      <xbrl:segment>
+        <xbrldi:typedMember dimension="ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis">
+          <ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadDomain>2</ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadDomain>
+        </xbrldi:typedMember>
+      </xbrl:segment>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-01</xbrl:startDate>
+      <xbrl:endDate>2023-12-31</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_3">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+      <xbrl:segment>
+        <xbrldi:typedMember dimension="ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis">
+          <ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadDomain>3</ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadDomain>
+        </xbrldi:typedMember>
+      </xbrl:segment>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-01</xbrl:startDate>
+      <xbrl:endDate>2023-12-31</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_4">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+      <xbrl:segment>
+        <xbrldi:typedMember dimension="ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis">
+          <ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadDomain>4</ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadDomain>
+        </xbrldi:typedMember>
+      </xbrl:segment>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-01</xbrl:startDate>
+      <xbrl:endDate>2023-12-31</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_5">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+      <xbrl:segment>
+        <xbrldi:typedMember dimension="ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis">
+          <ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadDomain>5</ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadDomain>
+        </xbrldi:typedMember>
+      </xbrl:segment>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-01</xbrl:startDate>
+      <xbrl:endDate>2023-12-31</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_6">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+      <xbrl:segment>
+        <xbrldi:typedMember dimension="ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis">
+          <ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadDomain>6</ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadDomain>
+        </xbrldi:typedMember>
+      </xbrl:segment>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-01</xbrl:startDate>
+      <xbrl:endDate>2023-12-31</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_7">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+      <xbrl:segment>
+        <xbrldi:typedMember dimension="ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis">
+          <ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadDomain>7</ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadDomain>
+        </xbrldi:typedMember>
+      </xbrl:segment>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-01</xbrl:startDate>
+      <xbrl:endDate>2023-12-31</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_8">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+      <xbrl:segment>
+        <xbrldi:typedMember dimension="ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis">
+          <ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadDomain>8</ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadDomain>
+        </xbrldi:typedMember>
+      </xbrl:segment>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-01</xbrl:startDate>
+      <xbrl:endDate>2023-12-31</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_9">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+      <xbrl:segment>
+        <xbrldi:typedMember dimension="ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis">
+          <ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadDomain>9</ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadDomain>
+        </xbrldi:typedMember>
+      </xbrl:segment>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-01</xbrl:startDate>
+      <xbrl:endDate>2023-12-31</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_10">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+      <xbrl:segment>
+        <xbrldi:typedMember dimension="ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis">
+          <ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadDomain>10</ferc:PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadDomain>
+        </xbrldi:typedMember>
+      </xbrl:segment>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-01</xbrl:startDate>
+      <xbrl:endDate>2023-12-31</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-01To2023-01-01">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-01</xbrl:startDate>
+      <xbrl:endDate>2023-01-01</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-02To2023-01-02">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-02</xbrl:startDate>
+      <xbrl:endDate>2023-01-02</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-03To2023-01-03">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-03</xbrl:startDate>
+      <xbrl:endDate>2023-01-03</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-04To2023-01-04">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-04</xbrl:startDate>
+      <xbrl:endDate>2023-01-04</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-05To2023-01-05">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-05</xbrl:startDate>
+      <xbrl:endDate>2023-01-05</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-06To2023-01-06">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-06</xbrl:startDate>
+      <xbrl:endDate>2023-01-06</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-07To2023-01-07">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-07</xbrl:startDate>
+      <xbrl:endDate>2023-01-07</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-08To2023-01-08">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-08</xbrl:startDate>
+      <xbrl:endDate>2023-01-08</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-09To2023-01-09">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-09</xbrl:startDate>
+      <xbrl:endDate>2023-01-09</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-10To2023-01-10">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-10</xbrl:startDate>
+      <xbrl:endDate>2023-01-10</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-11To2023-01-11">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-11</xbrl:startDate>
+      <xbrl:endDate>2023-01-11</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-12To2023-01-12">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-12</xbrl:startDate>
+      <xbrl:endDate>2023-01-12</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-13To2023-01-13">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-13</xbrl:startDate>
+      <xbrl:endDate>2023-01-13</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-14To2023-01-14">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-14</xbrl:startDate>
+      <xbrl:endDate>2023-01-14</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-15To2023-01-15">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-15</xbrl:startDate>
+      <xbrl:endDate>2023-01-15</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-16To2023-01-16">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-16</xbrl:startDate>
+      <xbrl:endDate>2023-01-16</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-17To2023-01-17">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-17</xbrl:startDate>
+      <xbrl:endDate>2023-01-17</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-18To2023-01-18">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-18</xbrl:startDate>
+      <xbrl:endDate>2023-01-18</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-19To2023-01-19">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-19</xbrl:startDate>
+      <xbrl:endDate>2023-01-19</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-20To2023-01-20">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-20</xbrl:startDate>
+      <xbrl:endDate>2023-01-20</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-21To2023-01-21">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-21</xbrl:startDate>
+      <xbrl:endDate>2023-01-21</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-22To2023-01-22">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-22</xbrl:startDate>
+      <xbrl:endDate>2023-01-22</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-23To2023-01-23">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-23</xbrl:startDate>
+      <xbrl:endDate>2023-01-23</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-24To2023-01-24">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-24</xbrl:startDate>
+      <xbrl:endDate>2023-01-24</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-25To2023-01-25">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-25</xbrl:startDate>
+      <xbrl:endDate>2023-01-25</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-26To2023-01-26">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-26</xbrl:startDate>
+      <xbrl:endDate>2023-01-26</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-27To2023-01-27">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-27</xbrl:startDate>
+      <xbrl:endDate>2023-01-27</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-28To2023-01-28">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-28</xbrl:startDate>
+      <xbrl:endDate>2023-01-28</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-29To2023-01-29">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-29</xbrl:startDate>
+      <xbrl:endDate>2023-01-29</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-30To2023-01-30">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-30</xbrl:startDate>
+      <xbrl:endDate>2023-01-30</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-01-31To2023-01-31">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-01-31</xbrl:startDate>
+      <xbrl:endDate>2023-01-31</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-01To2023-02-01">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-01</xbrl:startDate>
+      <xbrl:endDate>2023-02-01</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-02To2023-02-02">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-02</xbrl:startDate>
+      <xbrl:endDate>2023-02-02</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-03To2023-02-03">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-03</xbrl:startDate>
+      <xbrl:endDate>2023-02-03</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-04To2023-02-04">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-04</xbrl:startDate>
+      <xbrl:endDate>2023-02-04</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-05To2023-02-05">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-05</xbrl:startDate>
+      <xbrl:endDate>2023-02-05</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-06To2023-02-06">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-06</xbrl:startDate>
+      <xbrl:endDate>2023-02-06</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-07To2023-02-07">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-07</xbrl:startDate>
+      <xbrl:endDate>2023-02-07</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-08To2023-02-08">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-08</xbrl:startDate>
+      <xbrl:endDate>2023-02-08</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-09To2023-02-09">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-09</xbrl:startDate>
+      <xbrl:endDate>2023-02-09</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-10To2023-02-10">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-10</xbrl:startDate>
+      <xbrl:endDate>2023-02-10</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-11To2023-02-11">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-11</xbrl:startDate>
+      <xbrl:endDate>2023-02-11</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-12To2023-02-12">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-12</xbrl:startDate>
+      <xbrl:endDate>2023-02-12</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-13To2023-02-13">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-13</xbrl:startDate>
+      <xbrl:endDate>2023-02-13</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-14To2023-02-14">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-14</xbrl:startDate>
+      <xbrl:endDate>2023-02-14</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-15To2023-02-15">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-15</xbrl:startDate>
+      <xbrl:endDate>2023-02-15</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-16To2023-02-16">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-16</xbrl:startDate>
+      <xbrl:endDate>2023-02-16</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-17To2023-02-17">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-17</xbrl:startDate>
+      <xbrl:endDate>2023-02-17</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-18To2023-02-18">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-18</xbrl:startDate>
+      <xbrl:endDate>2023-02-18</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-19To2023-02-19">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-19</xbrl:startDate>
+      <xbrl:endDate>2023-02-19</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-20To2023-02-20">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-20</xbrl:startDate>
+      <xbrl:endDate>2023-02-20</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-21To2023-02-21">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-21</xbrl:startDate>
+      <xbrl:endDate>2023-02-21</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-22To2023-02-22">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-22</xbrl:startDate>
+      <xbrl:endDate>2023-02-22</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-23To2023-02-23">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-23</xbrl:startDate>
+      <xbrl:endDate>2023-02-23</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-24To2023-02-24">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-24</xbrl:startDate>
+      <xbrl:endDate>2023-02-24</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-25To2023-02-25">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-25</xbrl:startDate>
+      <xbrl:endDate>2023-02-25</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-26To2023-02-26">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-26</xbrl:startDate>
+      <xbrl:endDate>2023-02-26</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-27To2023-02-27">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-27</xbrl:startDate>
+      <xbrl:endDate>2023-02-27</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-02-28To2023-02-28">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-02-28</xbrl:startDate>
+      <xbrl:endDate>2023-02-28</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-01To2023-03-01">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-01</xbrl:startDate>
+      <xbrl:endDate>2023-03-01</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-02To2023-03-02">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-02</xbrl:startDate>
+      <xbrl:endDate>2023-03-02</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-03To2023-03-03">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-03</xbrl:startDate>
+      <xbrl:endDate>2023-03-03</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-04To2023-03-04">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-04</xbrl:startDate>
+      <xbrl:endDate>2023-03-04</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-05To2023-03-05">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-05</xbrl:startDate>
+      <xbrl:endDate>2023-03-05</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-06To2023-03-06">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-06</xbrl:startDate>
+      <xbrl:endDate>2023-03-06</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-07To2023-03-07">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-07</xbrl:startDate>
+      <xbrl:endDate>2023-03-07</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-08To2023-03-08">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-08</xbrl:startDate>
+      <xbrl:endDate>2023-03-08</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-09To2023-03-09">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-09</xbrl:startDate>
+      <xbrl:endDate>2023-03-09</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-10To2023-03-10">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-10</xbrl:startDate>
+      <xbrl:endDate>2023-03-10</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-11To2023-03-11">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-11</xbrl:startDate>
+      <xbrl:endDate>2023-03-11</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-12To2023-03-12">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-12</xbrl:startDate>
+      <xbrl:endDate>2023-03-12</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-13To2023-03-13">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-13</xbrl:startDate>
+      <xbrl:endDate>2023-03-13</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-14To2023-03-14">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-14</xbrl:startDate>
+      <xbrl:endDate>2023-03-14</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-15To2023-03-15">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-15</xbrl:startDate>
+      <xbrl:endDate>2023-03-15</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-16To2023-03-16">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-16</xbrl:startDate>
+      <xbrl:endDate>2023-03-16</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-17To2023-03-17">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-17</xbrl:startDate>
+      <xbrl:endDate>2023-03-17</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-18To2023-03-18">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-18</xbrl:startDate>
+      <xbrl:endDate>2023-03-18</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-19To2023-03-19">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-19</xbrl:startDate>
+      <xbrl:endDate>2023-03-19</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-20To2023-03-20">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-20</xbrl:startDate>
+      <xbrl:endDate>2023-03-20</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-21To2023-03-21">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-21</xbrl:startDate>
+      <xbrl:endDate>2023-03-21</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-22To2023-03-22">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-22</xbrl:startDate>
+      <xbrl:endDate>2023-03-22</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-23To2023-03-23">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-23</xbrl:startDate>
+      <xbrl:endDate>2023-03-23</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-24To2023-03-24">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-24</xbrl:startDate>
+      <xbrl:endDate>2023-03-24</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-25To2023-03-25">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-25</xbrl:startDate>
+      <xbrl:endDate>2023-03-25</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-26To2023-03-26">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-26</xbrl:startDate>
+      <xbrl:endDate>2023-03-26</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-27To2023-03-27">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-27</xbrl:startDate>
+      <xbrl:endDate>2023-03-27</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-28To2023-03-28">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-28</xbrl:startDate>
+      <xbrl:endDate>2023-03-28</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-29To2023-03-29">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-29</xbrl:startDate>
+      <xbrl:endDate>2023-03-29</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-30To2023-03-30">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-30</xbrl:startDate>
+      <xbrl:endDate>2023-03-30</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-03-31To2023-03-31">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-03-31</xbrl:startDate>
+      <xbrl:endDate>2023-03-31</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-01To2023-04-01">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-01</xbrl:startDate>
+      <xbrl:endDate>2023-04-01</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-02To2023-04-02">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-02</xbrl:startDate>
+      <xbrl:endDate>2023-04-02</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-03To2023-04-03">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-03</xbrl:startDate>
+      <xbrl:endDate>2023-04-03</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-04To2023-04-04">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-04</xbrl:startDate>
+      <xbrl:endDate>2023-04-04</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-05To2023-04-05">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-05</xbrl:startDate>
+      <xbrl:endDate>2023-04-05</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-06To2023-04-06">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-06</xbrl:startDate>
+      <xbrl:endDate>2023-04-06</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-07To2023-04-07">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-07</xbrl:startDate>
+      <xbrl:endDate>2023-04-07</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-08To2023-04-08">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-08</xbrl:startDate>
+      <xbrl:endDate>2023-04-08</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-09To2023-04-09">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-09</xbrl:startDate>
+      <xbrl:endDate>2023-04-09</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-10To2023-04-10">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-10</xbrl:startDate>
+      <xbrl:endDate>2023-04-10</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-11To2023-04-11">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-11</xbrl:startDate>
+      <xbrl:endDate>2023-04-11</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-12To2023-04-12">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-12</xbrl:startDate>
+      <xbrl:endDate>2023-04-12</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-13To2023-04-13">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-13</xbrl:startDate>
+      <xbrl:endDate>2023-04-13</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-14To2023-04-14">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-14</xbrl:startDate>
+      <xbrl:endDate>2023-04-14</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-15To2023-04-15">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-15</xbrl:startDate>
+      <xbrl:endDate>2023-04-15</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-16To2023-04-16">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-16</xbrl:startDate>
+      <xbrl:endDate>2023-04-16</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-17To2023-04-17">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-17</xbrl:startDate>
+      <xbrl:endDate>2023-04-17</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-18To2023-04-18">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-18</xbrl:startDate>
+      <xbrl:endDate>2023-04-18</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-19To2023-04-19">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-19</xbrl:startDate>
+      <xbrl:endDate>2023-04-19</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-20To2023-04-20">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-20</xbrl:startDate>
+      <xbrl:endDate>2023-04-20</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-21To2023-04-21">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-21</xbrl:startDate>
+      <xbrl:endDate>2023-04-21</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-22To2023-04-22">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-22</xbrl:startDate>
+      <xbrl:endDate>2023-04-22</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-23To2023-04-23">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-23</xbrl:startDate>
+      <xbrl:endDate>2023-04-23</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-24To2023-04-24">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-24</xbrl:startDate>
+      <xbrl:endDate>2023-04-24</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-25To2023-04-25">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-25</xbrl:startDate>
+      <xbrl:endDate>2023-04-25</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-26To2023-04-26">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-26</xbrl:startDate>
+      <xbrl:endDate>2023-04-26</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-27To2023-04-27">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-27</xbrl:startDate>
+      <xbrl:endDate>2023-04-27</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-28To2023-04-28">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-28</xbrl:startDate>
+      <xbrl:endDate>2023-04-28</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-29To2023-04-29">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-29</xbrl:startDate>
+      <xbrl:endDate>2023-04-29</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-04-30To2023-04-30">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-04-30</xbrl:startDate>
+      <xbrl:endDate>2023-04-30</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-01To2023-05-01">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-01</xbrl:startDate>
+      <xbrl:endDate>2023-05-01</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-02To2023-05-02">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-02</xbrl:startDate>
+      <xbrl:endDate>2023-05-02</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-03To2023-05-03">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-03</xbrl:startDate>
+      <xbrl:endDate>2023-05-03</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-04To2023-05-04">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-04</xbrl:startDate>
+      <xbrl:endDate>2023-05-04</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-05To2023-05-05">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-05</xbrl:startDate>
+      <xbrl:endDate>2023-05-05</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-06To2023-05-06">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-06</xbrl:startDate>
+      <xbrl:endDate>2023-05-06</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-07To2023-05-07">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-07</xbrl:startDate>
+      <xbrl:endDate>2023-05-07</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-08To2023-05-08">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-08</xbrl:startDate>
+      <xbrl:endDate>2023-05-08</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-09To2023-05-09">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-09</xbrl:startDate>
+      <xbrl:endDate>2023-05-09</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-10To2023-05-10">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-10</xbrl:startDate>
+      <xbrl:endDate>2023-05-10</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-11To2023-05-11">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-11</xbrl:startDate>
+      <xbrl:endDate>2023-05-11</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-12To2023-05-12">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-12</xbrl:startDate>
+      <xbrl:endDate>2023-05-12</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-13To2023-05-13">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-13</xbrl:startDate>
+      <xbrl:endDate>2023-05-13</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-14To2023-05-14">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-14</xbrl:startDate>
+      <xbrl:endDate>2023-05-14</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-15To2023-05-15">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-15</xbrl:startDate>
+      <xbrl:endDate>2023-05-15</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-16To2023-05-16">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-16</xbrl:startDate>
+      <xbrl:endDate>2023-05-16</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-17To2023-05-17">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-17</xbrl:startDate>
+      <xbrl:endDate>2023-05-17</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-18To2023-05-18">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-18</xbrl:startDate>
+      <xbrl:endDate>2023-05-18</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-19To2023-05-19">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-19</xbrl:startDate>
+      <xbrl:endDate>2023-05-19</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-20To2023-05-20">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-20</xbrl:startDate>
+      <xbrl:endDate>2023-05-20</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-21To2023-05-21">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-21</xbrl:startDate>
+      <xbrl:endDate>2023-05-21</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-22To2023-05-22">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-22</xbrl:startDate>
+      <xbrl:endDate>2023-05-22</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-23To2023-05-23">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-23</xbrl:startDate>
+      <xbrl:endDate>2023-05-23</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-24To2023-05-24">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-24</xbrl:startDate>
+      <xbrl:endDate>2023-05-24</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-25To2023-05-25">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-25</xbrl:startDate>
+      <xbrl:endDate>2023-05-25</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-26To2023-05-26">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-26</xbrl:startDate>
+      <xbrl:endDate>2023-05-26</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-27To2023-05-27">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-27</xbrl:startDate>
+      <xbrl:endDate>2023-05-27</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-28To2023-05-28">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-28</xbrl:startDate>
+      <xbrl:endDate>2023-05-28</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-29To2023-05-29">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-29</xbrl:startDate>
+      <xbrl:endDate>2023-05-29</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-30To2023-05-30">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-30</xbrl:startDate>
+      <xbrl:endDate>2023-05-30</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-05-31To2023-05-31">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-05-31</xbrl:startDate>
+      <xbrl:endDate>2023-05-31</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-01To2023-06-01">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-01</xbrl:startDate>
+      <xbrl:endDate>2023-06-01</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-02To2023-06-02">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-02</xbrl:startDate>
+      <xbrl:endDate>2023-06-02</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-03To2023-06-03">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-03</xbrl:startDate>
+      <xbrl:endDate>2023-06-03</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-04To2023-06-04">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-04</xbrl:startDate>
+      <xbrl:endDate>2023-06-04</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-05To2023-06-05">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-05</xbrl:startDate>
+      <xbrl:endDate>2023-06-05</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-06To2023-06-06">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-06</xbrl:startDate>
+      <xbrl:endDate>2023-06-06</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-07To2023-06-07">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-07</xbrl:startDate>
+      <xbrl:endDate>2023-06-07</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-08To2023-06-08">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-08</xbrl:startDate>
+      <xbrl:endDate>2023-06-08</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-09To2023-06-09">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-09</xbrl:startDate>
+      <xbrl:endDate>2023-06-09</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-10To2023-06-10">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-10</xbrl:startDate>
+      <xbrl:endDate>2023-06-10</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-11To2023-06-11">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-11</xbrl:startDate>
+      <xbrl:endDate>2023-06-11</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-12To2023-06-12">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-12</xbrl:startDate>
+      <xbrl:endDate>2023-06-12</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-13To2023-06-13">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-13</xbrl:startDate>
+      <xbrl:endDate>2023-06-13</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-14To2023-06-14">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-14</xbrl:startDate>
+      <xbrl:endDate>2023-06-14</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-15To2023-06-15">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-15</xbrl:startDate>
+      <xbrl:endDate>2023-06-15</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-16To2023-06-16">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-16</xbrl:startDate>
+      <xbrl:endDate>2023-06-16</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-17To2023-06-17">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-17</xbrl:startDate>
+      <xbrl:endDate>2023-06-17</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-18To2023-06-18">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-18</xbrl:startDate>
+      <xbrl:endDate>2023-06-18</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-19To2023-06-19">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-19</xbrl:startDate>
+      <xbrl:endDate>2023-06-19</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-20To2023-06-20">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-20</xbrl:startDate>
+      <xbrl:endDate>2023-06-20</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-21To2023-06-21">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-21</xbrl:startDate>
+      <xbrl:endDate>2023-06-21</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-22To2023-06-22">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-22</xbrl:startDate>
+      <xbrl:endDate>2023-06-22</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-23To2023-06-23">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-23</xbrl:startDate>
+      <xbrl:endDate>2023-06-23</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-24To2023-06-24">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-24</xbrl:startDate>
+      <xbrl:endDate>2023-06-24</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-25To2023-06-25">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-25</xbrl:startDate>
+      <xbrl:endDate>2023-06-25</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-26To2023-06-26">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-26</xbrl:startDate>
+      <xbrl:endDate>2023-06-26</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-27To2023-06-27">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-27</xbrl:startDate>
+      <xbrl:endDate>2023-06-27</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-28To2023-06-28">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-28</xbrl:startDate>
+      <xbrl:endDate>2023-06-28</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-29To2023-06-29">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-29</xbrl:startDate>
+      <xbrl:endDate>2023-06-29</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-06-30To2023-06-30">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-06-30</xbrl:startDate>
+      <xbrl:endDate>2023-06-30</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-01To2023-07-01">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-01</xbrl:startDate>
+      <xbrl:endDate>2023-07-01</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-02To2023-07-02">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-02</xbrl:startDate>
+      <xbrl:endDate>2023-07-02</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-03To2023-07-03">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-03</xbrl:startDate>
+      <xbrl:endDate>2023-07-03</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-04To2023-07-04">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-04</xbrl:startDate>
+      <xbrl:endDate>2023-07-04</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-05To2023-07-05">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-05</xbrl:startDate>
+      <xbrl:endDate>2023-07-05</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-06To2023-07-06">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-06</xbrl:startDate>
+      <xbrl:endDate>2023-07-06</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-07To2023-07-07">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-07</xbrl:startDate>
+      <xbrl:endDate>2023-07-07</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-08To2023-07-08">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-08</xbrl:startDate>
+      <xbrl:endDate>2023-07-08</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-09To2023-07-09">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-09</xbrl:startDate>
+      <xbrl:endDate>2023-07-09</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-10To2023-07-10">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-10</xbrl:startDate>
+      <xbrl:endDate>2023-07-10</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-11To2023-07-11">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-11</xbrl:startDate>
+      <xbrl:endDate>2023-07-11</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-12To2023-07-12">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-12</xbrl:startDate>
+      <xbrl:endDate>2023-07-12</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-13To2023-07-13">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-13</xbrl:startDate>
+      <xbrl:endDate>2023-07-13</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-14To2023-07-14">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-14</xbrl:startDate>
+      <xbrl:endDate>2023-07-14</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-15To2023-07-15">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-15</xbrl:startDate>
+      <xbrl:endDate>2023-07-15</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-16To2023-07-16">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-16</xbrl:startDate>
+      <xbrl:endDate>2023-07-16</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-17To2023-07-17">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-17</xbrl:startDate>
+      <xbrl:endDate>2023-07-17</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-18To2023-07-18">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-18</xbrl:startDate>
+      <xbrl:endDate>2023-07-18</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-19To2023-07-19">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-19</xbrl:startDate>
+      <xbrl:endDate>2023-07-19</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-20To2023-07-20">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-20</xbrl:startDate>
+      <xbrl:endDate>2023-07-20</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-21To2023-07-21">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-21</xbrl:startDate>
+      <xbrl:endDate>2023-07-21</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-22To2023-07-22">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-22</xbrl:startDate>
+      <xbrl:endDate>2023-07-22</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-23To2023-07-23">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-23</xbrl:startDate>
+      <xbrl:endDate>2023-07-23</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-24To2023-07-24">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-24</xbrl:startDate>
+      <xbrl:endDate>2023-07-24</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-25To2023-07-25">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-25</xbrl:startDate>
+      <xbrl:endDate>2023-07-25</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-26To2023-07-26">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-26</xbrl:startDate>
+      <xbrl:endDate>2023-07-26</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-27To2023-07-27">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-27</xbrl:startDate>
+      <xbrl:endDate>2023-07-27</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-28To2023-07-28">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-28</xbrl:startDate>
+      <xbrl:endDate>2023-07-28</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-29To2023-07-29">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-29</xbrl:startDate>
+      <xbrl:endDate>2023-07-29</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-30To2023-07-30">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-30</xbrl:startDate>
+      <xbrl:endDate>2023-07-30</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-07-31To2023-07-31">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-07-31</xbrl:startDate>
+      <xbrl:endDate>2023-07-31</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-01To2023-08-01">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-01</xbrl:startDate>
+      <xbrl:endDate>2023-08-01</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-02To2023-08-02">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-02</xbrl:startDate>
+      <xbrl:endDate>2023-08-02</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-03To2023-08-03">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-03</xbrl:startDate>
+      <xbrl:endDate>2023-08-03</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-04To2023-08-04">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-04</xbrl:startDate>
+      <xbrl:endDate>2023-08-04</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-05To2023-08-05">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-05</xbrl:startDate>
+      <xbrl:endDate>2023-08-05</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-06To2023-08-06">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-06</xbrl:startDate>
+      <xbrl:endDate>2023-08-06</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-07To2023-08-07">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-07</xbrl:startDate>
+      <xbrl:endDate>2023-08-07</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-08To2023-08-08">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-08</xbrl:startDate>
+      <xbrl:endDate>2023-08-08</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-09To2023-08-09">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-09</xbrl:startDate>
+      <xbrl:endDate>2023-08-09</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-10To2023-08-10">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-10</xbrl:startDate>
+      <xbrl:endDate>2023-08-10</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-11To2023-08-11">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-11</xbrl:startDate>
+      <xbrl:endDate>2023-08-11</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-12To2023-08-12">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-12</xbrl:startDate>
+      <xbrl:endDate>2023-08-12</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-13To2023-08-13">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-13</xbrl:startDate>
+      <xbrl:endDate>2023-08-13</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-14To2023-08-14">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-14</xbrl:startDate>
+      <xbrl:endDate>2023-08-14</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-15To2023-08-15">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-15</xbrl:startDate>
+      <xbrl:endDate>2023-08-15</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-16To2023-08-16">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-16</xbrl:startDate>
+      <xbrl:endDate>2023-08-16</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-17To2023-08-17">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-17</xbrl:startDate>
+      <xbrl:endDate>2023-08-17</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-18To2023-08-18">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-18</xbrl:startDate>
+      <xbrl:endDate>2023-08-18</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-19To2023-08-19">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-19</xbrl:startDate>
+      <xbrl:endDate>2023-08-19</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-20To2023-08-20">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-20</xbrl:startDate>
+      <xbrl:endDate>2023-08-20</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-21To2023-08-21">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-21</xbrl:startDate>
+      <xbrl:endDate>2023-08-21</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-22To2023-08-22">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-22</xbrl:startDate>
+      <xbrl:endDate>2023-08-22</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-23To2023-08-23">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-23</xbrl:startDate>
+      <xbrl:endDate>2023-08-23</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-24To2023-08-24">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-24</xbrl:startDate>
+      <xbrl:endDate>2023-08-24</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-25To2023-08-25">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-25</xbrl:startDate>
+      <xbrl:endDate>2023-08-25</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-26To2023-08-26">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-26</xbrl:startDate>
+      <xbrl:endDate>2023-08-26</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-27To2023-08-27">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-27</xbrl:startDate>
+      <xbrl:endDate>2023-08-27</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-28To2023-08-28">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-28</xbrl:startDate>
+      <xbrl:endDate>2023-08-28</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-29To2023-08-29">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-29</xbrl:startDate>
+      <xbrl:endDate>2023-08-29</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-30To2023-08-30">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-30</xbrl:startDate>
+      <xbrl:endDate>2023-08-30</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-08-31To2023-08-31">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-08-31</xbrl:startDate>
+      <xbrl:endDate>2023-08-31</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-01To2023-09-01">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-01</xbrl:startDate>
+      <xbrl:endDate>2023-09-01</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-02To2023-09-02">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-02</xbrl:startDate>
+      <xbrl:endDate>2023-09-02</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-03To2023-09-03">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-03</xbrl:startDate>
+      <xbrl:endDate>2023-09-03</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-04To2023-09-04">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-04</xbrl:startDate>
+      <xbrl:endDate>2023-09-04</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-05To2023-09-05">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-05</xbrl:startDate>
+      <xbrl:endDate>2023-09-05</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-06To2023-09-06">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-06</xbrl:startDate>
+      <xbrl:endDate>2023-09-06</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-07To2023-09-07">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-07</xbrl:startDate>
+      <xbrl:endDate>2023-09-07</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-08To2023-09-08">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-08</xbrl:startDate>
+      <xbrl:endDate>2023-09-08</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-09To2023-09-09">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-09</xbrl:startDate>
+      <xbrl:endDate>2023-09-09</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-10To2023-09-10">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-10</xbrl:startDate>
+      <xbrl:endDate>2023-09-10</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-11To2023-09-11">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-11</xbrl:startDate>
+      <xbrl:endDate>2023-09-11</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-12To2023-09-12">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-12</xbrl:startDate>
+      <xbrl:endDate>2023-09-12</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-13To2023-09-13">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-13</xbrl:startDate>
+      <xbrl:endDate>2023-09-13</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-14To2023-09-14">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-14</xbrl:startDate>
+      <xbrl:endDate>2023-09-14</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-15To2023-09-15">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-15</xbrl:startDate>
+      <xbrl:endDate>2023-09-15</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-16To2023-09-16">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-16</xbrl:startDate>
+      <xbrl:endDate>2023-09-16</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-17To2023-09-17">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-17</xbrl:startDate>
+      <xbrl:endDate>2023-09-17</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-18To2023-09-18">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-18</xbrl:startDate>
+      <xbrl:endDate>2023-09-18</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-19To2023-09-19">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-19</xbrl:startDate>
+      <xbrl:endDate>2023-09-19</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-20To2023-09-20">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-20</xbrl:startDate>
+      <xbrl:endDate>2023-09-20</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-21To2023-09-21">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-21</xbrl:startDate>
+      <xbrl:endDate>2023-09-21</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-22To2023-09-22">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-22</xbrl:startDate>
+      <xbrl:endDate>2023-09-22</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-23To2023-09-23">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-23</xbrl:startDate>
+      <xbrl:endDate>2023-09-23</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-24To2023-09-24">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-24</xbrl:startDate>
+      <xbrl:endDate>2023-09-24</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-25To2023-09-25">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-25</xbrl:startDate>
+      <xbrl:endDate>2023-09-25</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-26To2023-09-26">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-26</xbrl:startDate>
+      <xbrl:endDate>2023-09-26</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-27To2023-09-27">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-27</xbrl:startDate>
+      <xbrl:endDate>2023-09-27</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-28To2023-09-28">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-28</xbrl:startDate>
+      <xbrl:endDate>2023-09-28</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-29To2023-09-29">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-29</xbrl:startDate>
+      <xbrl:endDate>2023-09-29</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-09-30To2023-09-30">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-09-30</xbrl:startDate>
+      <xbrl:endDate>2023-09-30</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-01To2023-10-01">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-01</xbrl:startDate>
+      <xbrl:endDate>2023-10-01</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-02To2023-10-02">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-02</xbrl:startDate>
+      <xbrl:endDate>2023-10-02</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-03To2023-10-03">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-03</xbrl:startDate>
+      <xbrl:endDate>2023-10-03</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-04To2023-10-04">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-04</xbrl:startDate>
+      <xbrl:endDate>2023-10-04</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-05To2023-10-05">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-05</xbrl:startDate>
+      <xbrl:endDate>2023-10-05</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-06To2023-10-06">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-06</xbrl:startDate>
+      <xbrl:endDate>2023-10-06</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-07To2023-10-07">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-07</xbrl:startDate>
+      <xbrl:endDate>2023-10-07</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-08To2023-10-08">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-08</xbrl:startDate>
+      <xbrl:endDate>2023-10-08</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-09To2023-10-09">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-09</xbrl:startDate>
+      <xbrl:endDate>2023-10-09</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-10To2023-10-10">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-10</xbrl:startDate>
+      <xbrl:endDate>2023-10-10</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-11To2023-10-11">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-11</xbrl:startDate>
+      <xbrl:endDate>2023-10-11</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-12To2023-10-12">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-12</xbrl:startDate>
+      <xbrl:endDate>2023-10-12</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-13To2023-10-13">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-13</xbrl:startDate>
+      <xbrl:endDate>2023-10-13</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-14To2023-10-14">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-14</xbrl:startDate>
+      <xbrl:endDate>2023-10-14</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-15To2023-10-15">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-15</xbrl:startDate>
+      <xbrl:endDate>2023-10-15</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-16To2023-10-16">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-16</xbrl:startDate>
+      <xbrl:endDate>2023-10-16</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-17To2023-10-17">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-17</xbrl:startDate>
+      <xbrl:endDate>2023-10-17</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-18To2023-10-18">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-18</xbrl:startDate>
+      <xbrl:endDate>2023-10-18</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-19To2023-10-19">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-19</xbrl:startDate>
+      <xbrl:endDate>2023-10-19</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-20To2023-10-20">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-20</xbrl:startDate>
+      <xbrl:endDate>2023-10-20</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-21To2023-10-21">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-21</xbrl:startDate>
+      <xbrl:endDate>2023-10-21</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-22To2023-10-22">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-22</xbrl:startDate>
+      <xbrl:endDate>2023-10-22</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-23To2023-10-23">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-23</xbrl:startDate>
+      <xbrl:endDate>2023-10-23</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-24To2023-10-24">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-24</xbrl:startDate>
+      <xbrl:endDate>2023-10-24</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-25To2023-10-25">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-25</xbrl:startDate>
+      <xbrl:endDate>2023-10-25</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-26To2023-10-26">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-26</xbrl:startDate>
+      <xbrl:endDate>2023-10-26</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-27To2023-10-27">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-27</xbrl:startDate>
+      <xbrl:endDate>2023-10-27</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-28To2023-10-28">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-28</xbrl:startDate>
+      <xbrl:endDate>2023-10-28</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-29To2023-10-29">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-29</xbrl:startDate>
+      <xbrl:endDate>2023-10-29</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-30To2023-10-30">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-30</xbrl:startDate>
+      <xbrl:endDate>2023-10-30</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-10-31To2023-10-31">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-10-31</xbrl:startDate>
+      <xbrl:endDate>2023-10-31</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-01To2023-11-01">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-01</xbrl:startDate>
+      <xbrl:endDate>2023-11-01</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-02To2023-11-02">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-02</xbrl:startDate>
+      <xbrl:endDate>2023-11-02</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-03To2023-11-03">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-03</xbrl:startDate>
+      <xbrl:endDate>2023-11-03</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-04To2023-11-04">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-04</xbrl:startDate>
+      <xbrl:endDate>2023-11-04</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-05To2023-11-05">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-05</xbrl:startDate>
+      <xbrl:endDate>2023-11-05</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-06To2023-11-06">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-06</xbrl:startDate>
+      <xbrl:endDate>2023-11-06</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-07To2023-11-07">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-07</xbrl:startDate>
+      <xbrl:endDate>2023-11-07</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-08To2023-11-08">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-08</xbrl:startDate>
+      <xbrl:endDate>2023-11-08</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-09To2023-11-09">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-09</xbrl:startDate>
+      <xbrl:endDate>2023-11-09</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-10To2023-11-10">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-10</xbrl:startDate>
+      <xbrl:endDate>2023-11-10</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-11To2023-11-11">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-11</xbrl:startDate>
+      <xbrl:endDate>2023-11-11</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-12To2023-11-12">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-12</xbrl:startDate>
+      <xbrl:endDate>2023-11-12</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-13To2023-11-13">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-13</xbrl:startDate>
+      <xbrl:endDate>2023-11-13</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-14To2023-11-14">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-14</xbrl:startDate>
+      <xbrl:endDate>2023-11-14</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-15To2023-11-15">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-15</xbrl:startDate>
+      <xbrl:endDate>2023-11-15</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-16To2023-11-16">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-16</xbrl:startDate>
+      <xbrl:endDate>2023-11-16</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-17To2023-11-17">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-17</xbrl:startDate>
+      <xbrl:endDate>2023-11-17</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-18To2023-11-18">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-18</xbrl:startDate>
+      <xbrl:endDate>2023-11-18</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-19To2023-11-19">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-19</xbrl:startDate>
+      <xbrl:endDate>2023-11-19</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-20To2023-11-20">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-20</xbrl:startDate>
+      <xbrl:endDate>2023-11-20</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-21To2023-11-21">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-21</xbrl:startDate>
+      <xbrl:endDate>2023-11-21</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-22To2023-11-22">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-22</xbrl:startDate>
+      <xbrl:endDate>2023-11-22</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-23To2023-11-23">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-23</xbrl:startDate>
+      <xbrl:endDate>2023-11-23</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-24To2023-11-24">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-24</xbrl:startDate>
+      <xbrl:endDate>2023-11-24</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-25To2023-11-25">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-25</xbrl:startDate>
+      <xbrl:endDate>2023-11-25</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-26To2023-11-26">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-26</xbrl:startDate>
+      <xbrl:endDate>2023-11-26</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-27To2023-11-27">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-27</xbrl:startDate>
+      <xbrl:endDate>2023-11-27</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-28To2023-11-28">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-28</xbrl:startDate>
+      <xbrl:endDate>2023-11-28</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-29To2023-11-29">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-29</xbrl:startDate>
+      <xbrl:endDate>2023-11-29</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-11-30To2023-11-30">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-11-30</xbrl:startDate>
+      <xbrl:endDate>2023-11-30</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-01To2023-12-01">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-01</xbrl:startDate>
+      <xbrl:endDate>2023-12-01</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-02To2023-12-02">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-02</xbrl:startDate>
+      <xbrl:endDate>2023-12-02</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-03To2023-12-03">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-03</xbrl:startDate>
+      <xbrl:endDate>2023-12-03</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-04To2023-12-04">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-04</xbrl:startDate>
+      <xbrl:endDate>2023-12-04</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-05To2023-12-05">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-05</xbrl:startDate>
+      <xbrl:endDate>2023-12-05</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-06To2023-12-06">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-06</xbrl:startDate>
+      <xbrl:endDate>2023-12-06</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-07To2023-12-07">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-07</xbrl:startDate>
+      <xbrl:endDate>2023-12-07</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-08To2023-12-08">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-08</xbrl:startDate>
+      <xbrl:endDate>2023-12-08</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-09To2023-12-09">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-09</xbrl:startDate>
+      <xbrl:endDate>2023-12-09</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-10To2023-12-10">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-10</xbrl:startDate>
+      <xbrl:endDate>2023-12-10</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-11To2023-12-11">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-11</xbrl:startDate>
+      <xbrl:endDate>2023-12-11</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-12To2023-12-12">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-12</xbrl:startDate>
+      <xbrl:endDate>2023-12-12</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-13To2023-12-13">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-13</xbrl:startDate>
+      <xbrl:endDate>2023-12-13</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-14To2023-12-14">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-14</xbrl:startDate>
+      <xbrl:endDate>2023-12-14</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-15To2023-12-15">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-15</xbrl:startDate>
+      <xbrl:endDate>2023-12-15</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-16To2023-12-16">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-16</xbrl:startDate>
+      <xbrl:endDate>2023-12-16</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-17To2023-12-17">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-17</xbrl:startDate>
+      <xbrl:endDate>2023-12-17</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-18To2023-12-18">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-18</xbrl:startDate>
+      <xbrl:endDate>2023-12-18</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-19To2023-12-19">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-19</xbrl:startDate>
+      <xbrl:endDate>2023-12-19</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-20To2023-12-20">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-20</xbrl:startDate>
+      <xbrl:endDate>2023-12-20</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-21To2023-12-21">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-21</xbrl:startDate>
+      <xbrl:endDate>2023-12-21</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-22To2023-12-22">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-22</xbrl:startDate>
+      <xbrl:endDate>2023-12-22</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-23To2023-12-23">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-23</xbrl:startDate>
+      <xbrl:endDate>2023-12-23</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-24To2023-12-24">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-24</xbrl:startDate>
+      <xbrl:endDate>2023-12-24</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-25To2023-12-25">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-25</xbrl:startDate>
+      <xbrl:endDate>2023-12-25</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-26To2023-12-26">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-26</xbrl:startDate>
+      <xbrl:endDate>2023-12-26</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-27To2023-12-27">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-27</xbrl:startDate>
+      <xbrl:endDate>2023-12-27</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-28To2023-12-28">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-28</xbrl:startDate>
+      <xbrl:endDate>2023-12-28</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-29To2023-12-29">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-29</xbrl:startDate>
+      <xbrl:endDate>2023-12-29</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-30To2023-12-30">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-30</xbrl:startDate>
+      <xbrl:endDate>2023-12-30</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <xbrl:context id="From2023-12-31To2023-12-31">
+    <xbrl:entity>
+      <xbrl:identifier scheme="http://www.ferc.gov/CID">C003850</xbrl:identifier>
+    </xbrl:entity>
+    <xbrl:period>
+      <xbrl:startDate>2023-12-31</xbrl:startDate>
+      <xbrl:endDate>2023-12-31</xbrl:endDate>
+    </xbrl:period>
+  </xbrl:context>
+  <ferc:CertifyingOfficialDate contextRef="From2023-01-01To2023-12-31">2024-05-14</ferc:CertifyingOfficialDate>
+  <ferc:CompanyIdentifier contextRef="From2023-01-01To2023-12-31">C003850</ferc:CompanyIdentifier>
+  <ferc:ElectricUtilityCoincidentPeakDemandSummer contextRef="From2023-01-01To2023-12-31_ElectricUtilitiesThatComposeThePlanningAreaAxis_1" unitRef="MW" decimals="0">2259</ferc:ElectricUtilityCoincidentPeakDemandSummer>
+  <ferc:ElectricUtilityCoincidentPeakDemandWinter contextRef="From2023-01-01To2023-12-31_ElectricUtilitiesThatComposeThePlanningAreaAxis_1" unitRef="MW" decimals="0">1914</ferc:ElectricUtilityCoincidentPeakDemandWinter>
+  <ferc:ElectricUtilityName contextRef="From2023-01-01To2023-12-31_ElectricUtilitiesThatComposeThePlanningAreaAxis_1">Municipal Electric Authority of Georgia</ferc:ElectricUtilityName>
+  <ferc:EmailOfContactPerson contextRef="From2023-01-01To2023-12-31">tatchison@meagpower.org</ferc:EmailOfContactPerson>
+  <ferc:FormType contextRef="From2023-01-01To2023-12-31">714</ferc:FormType>
+  <ferc:NameOfCertifyingOfficial contextRef="From2023-01-01To2023-12-31">Tina Atchison</ferc:NameOfCertifyingOfficial>
+  <ferc:NameOfContactPerson contextRef="From2023-01-01To2023-12-31">Tina Atchison</ferc:NameOfContactPerson>
+  <ferc:OrderNumber contextRef="From2023-01-01To2023-12-31_ElectricUtilitiesThatComposeThePlanningAreaAxis_1" unitRef="pure" decimals="INF">1</ferc:OrderNumber>
+  <ferc:OrderNumber contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_1" unitRef="pure" decimals="INF">1</ferc:OrderNumber>
+  <ferc:OrderNumber contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_10" unitRef="pure" decimals="INF">10</ferc:OrderNumber>
+  <ferc:OrderNumber contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_2" unitRef="pure" decimals="INF">2</ferc:OrderNumber>
+  <ferc:OrderNumber contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_3" unitRef="pure" decimals="INF">3</ferc:OrderNumber>
+  <ferc:OrderNumber contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_4" unitRef="pure" decimals="INF">4</ferc:OrderNumber>
+  <ferc:OrderNumber contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_5" unitRef="pure" decimals="INF">5</ferc:OrderNumber>
+  <ferc:OrderNumber contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_6" unitRef="pure" decimals="INF">6</ferc:OrderNumber>
+  <ferc:OrderNumber contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_7" unitRef="pure" decimals="INF">7</ferc:OrderNumber>
+  <ferc:OrderNumber contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_8" unitRef="pure" decimals="INF">8</ferc:OrderNumber>
+  <ferc:OrderNumber contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_9" unitRef="pure" decimals="INF">9</ferc:OrderNumber>
+  <ferc:PlanningAreaFlag contextRef="From2023-01-01To2023-12-31">true</ferc:PlanningAreaFlag>
+  <ferc:PlanningAreaHourlyDemandAndForecastForecastOfAnnualNetEnergyForLoad contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_1" unitRef="MWh" decimals="0">14263094</ferc:PlanningAreaHourlyDemandAndForecastForecastOfAnnualNetEnergyForLoad>
+  <ferc:PlanningAreaHourlyDemandAndForecastForecastOfAnnualNetEnergyForLoad contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_10" unitRef="MWh" decimals="0">12662571</ferc:PlanningAreaHourlyDemandAndForecastForecastOfAnnualNetEnergyForLoad>
+  <ferc:PlanningAreaHourlyDemandAndForecastForecastOfAnnualNetEnergyForLoad contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_2" unitRef="MWh" decimals="0">14272126</ferc:PlanningAreaHourlyDemandAndForecastForecastOfAnnualNetEnergyForLoad>
+  <ferc:PlanningAreaHourlyDemandAndForecastForecastOfAnnualNetEnergyForLoad contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_3" unitRef="MWh" decimals="0">14302617</ferc:PlanningAreaHourlyDemandAndForecastForecastOfAnnualNetEnergyForLoad>
+  <ferc:PlanningAreaHourlyDemandAndForecastForecastOfAnnualNetEnergyForLoad contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_4" unitRef="MWh" decimals="0">13891247</ferc:PlanningAreaHourlyDemandAndForecastForecastOfAnnualNetEnergyForLoad>
+  <ferc:PlanningAreaHourlyDemandAndForecastForecastOfAnnualNetEnergyForLoad contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_5" unitRef="MWh" decimals="0">12647242</ferc:PlanningAreaHourlyDemandAndForecastForecastOfAnnualNetEnergyForLoad>
+  <ferc:PlanningAreaHourlyDemandAndForecastForecastOfAnnualNetEnergyForLoad contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_6" unitRef="MWh" decimals="0">12673612</ferc:PlanningAreaHourlyDemandAndForecastForecastOfAnnualNetEnergyForLoad>
+  <ferc:PlanningAreaHourlyDemandAndForecastForecastOfAnnualNetEnergyForLoad contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_7" unitRef="MWh" decimals="0">12700071</ferc:PlanningAreaHourlyDemandAndForecastForecastOfAnnualNetEnergyForLoad>
+  <ferc:PlanningAreaHourlyDemandAndForecastForecastOfAnnualNetEnergyForLoad contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_8" unitRef="MWh" decimals="0">12727268</ferc:PlanningAreaHourlyDemandAndForecastForecastOfAnnualNetEnergyForLoad>
+  <ferc:PlanningAreaHourlyDemandAndForecastForecastOfAnnualNetEnergyForLoad contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_9" unitRef="MWh" decimals="0">12664106</ferc:PlanningAreaHourlyDemandAndForecastForecastOfAnnualNetEnergyForLoad>
+  <ferc:PlanningAreaHourlyDemandAndForecastSummerForecast contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_1" unitRef="MW" decimals="0">2442</ferc:PlanningAreaHourlyDemandAndForecastSummerForecast>
+  <ferc:PlanningAreaHourlyDemandAndForecastSummerForecast contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_10" unitRef="MW" decimals="0">2229</ferc:PlanningAreaHourlyDemandAndForecastSummerForecast>
+  <ferc:PlanningAreaHourlyDemandAndForecastSummerForecast contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_2" unitRef="MW" decimals="0">2427</ferc:PlanningAreaHourlyDemandAndForecastSummerForecast>
+  <ferc:PlanningAreaHourlyDemandAndForecastSummerForecast contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_3" unitRef="MW" decimals="0">2433</ferc:PlanningAreaHourlyDemandAndForecastSummerForecast>
+  <ferc:PlanningAreaHourlyDemandAndForecastSummerForecast contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_4" unitRef="MW" decimals="0">2440</ferc:PlanningAreaHourlyDemandAndForecastSummerForecast>
+  <ferc:PlanningAreaHourlyDemandAndForecastSummerForecast contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_5" unitRef="MW" decimals="0">2219</ferc:PlanningAreaHourlyDemandAndForecastSummerForecast>
+  <ferc:PlanningAreaHourlyDemandAndForecastSummerForecast contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_6" unitRef="MW" decimals="0">2224</ferc:PlanningAreaHourlyDemandAndForecastSummerForecast>
+  <ferc:PlanningAreaHourlyDemandAndForecastSummerForecast contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_7" unitRef="MW" decimals="0">2229</ferc:PlanningAreaHourlyDemandAndForecastSummerForecast>
+  <ferc:PlanningAreaHourlyDemandAndForecastSummerForecast contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_8" unitRef="MW" decimals="0">2234</ferc:PlanningAreaHourlyDemandAndForecastSummerForecast>
+  <ferc:PlanningAreaHourlyDemandAndForecastSummerForecast contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_9" unitRef="MW" decimals="0">2224</ferc:PlanningAreaHourlyDemandAndForecastSummerForecast>
+  <ferc:PlanningAreaHourlyDemandAndForecastWinterForecast contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_1" unitRef="MW" decimals="0">2051</ferc:PlanningAreaHourlyDemandAndForecastWinterForecast>
+  <ferc:PlanningAreaHourlyDemandAndForecastWinterForecast contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_10" unitRef="MW" decimals="0">1982</ferc:PlanningAreaHourlyDemandAndForecastWinterForecast>
+  <ferc:PlanningAreaHourlyDemandAndForecastWinterForecast contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_2" unitRef="MW" decimals="0">2141</ferc:PlanningAreaHourlyDemandAndForecastWinterForecast>
+  <ferc:PlanningAreaHourlyDemandAndForecastWinterForecast contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_3" unitRef="MW" decimals="0">2146</ferc:PlanningAreaHourlyDemandAndForecastWinterForecast>
+  <ferc:PlanningAreaHourlyDemandAndForecastWinterForecast contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_4" unitRef="MW" decimals="0">2152</ferc:PlanningAreaHourlyDemandAndForecastWinterForecast>
+  <ferc:PlanningAreaHourlyDemandAndForecastWinterForecast contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_5" unitRef="MW" decimals="0">1978</ferc:PlanningAreaHourlyDemandAndForecastWinterForecast>
+  <ferc:PlanningAreaHourlyDemandAndForecastWinterForecast contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_6" unitRef="MW" decimals="0">1982</ferc:PlanningAreaHourlyDemandAndForecastWinterForecast>
+  <ferc:PlanningAreaHourlyDemandAndForecastWinterForecast contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_7" unitRef="MW" decimals="0">1985</ferc:PlanningAreaHourlyDemandAndForecastWinterForecast>
+  <ferc:PlanningAreaHourlyDemandAndForecastWinterForecast contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_8" unitRef="MW" decimals="0">1989</ferc:PlanningAreaHourlyDemandAndForecastWinterForecast>
+  <ferc:PlanningAreaHourlyDemandAndForecastWinterForecast contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_9" unitRef="MW" decimals="0">1994</ferc:PlanningAreaHourlyDemandAndForecastWinterForecast>
+  <ferc:PlanningAreaHourlyDemandAndForecastYear contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_1">2024</ferc:PlanningAreaHourlyDemandAndForecastYear>
+  <ferc:PlanningAreaHourlyDemandAndForecastYear contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_10">2033</ferc:PlanningAreaHourlyDemandAndForecastYear>
+  <ferc:PlanningAreaHourlyDemandAndForecastYear contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_2">2025</ferc:PlanningAreaHourlyDemandAndForecastYear>
+  <ferc:PlanningAreaHourlyDemandAndForecastYear contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_3">2026</ferc:PlanningAreaHourlyDemandAndForecastYear>
+  <ferc:PlanningAreaHourlyDemandAndForecastYear contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_4">2027</ferc:PlanningAreaHourlyDemandAndForecastYear>
+  <ferc:PlanningAreaHourlyDemandAndForecastYear contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_5">2028</ferc:PlanningAreaHourlyDemandAndForecastYear>
+  <ferc:PlanningAreaHourlyDemandAndForecastYear contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_6">2029</ferc:PlanningAreaHourlyDemandAndForecastYear>
+  <ferc:PlanningAreaHourlyDemandAndForecastYear contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_7">2030</ferc:PlanningAreaHourlyDemandAndForecastYear>
+  <ferc:PlanningAreaHourlyDemandAndForecastYear contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_8">2031</ferc:PlanningAreaHourlyDemandAndForecastYear>
+  <ferc:PlanningAreaHourlyDemandAndForecastYear contextRef="From2023-01-01To2023-12-31_PlanningAreaHourlyDemandAndForecastSummerAndWinterPeakDemandAndAnnualNetEnergyForLoadAxis_9">2032</ferc:PlanningAreaHourlyDemandAndForecastYear>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T010000" unitRef="MW" decimals="0">1000</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T020000" unitRef="MW" decimals="0">980</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T030000" unitRef="MW" decimals="0">956</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T040000" unitRef="MW" decimals="0">943</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T050000" unitRef="MW" decimals="0">943</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T060000" unitRef="MW" decimals="0">954</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T070000" unitRef="MW" decimals="0">968</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T080000" unitRef="MW" decimals="0">984</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T090000" unitRef="MW" decimals="0">998</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T100000" unitRef="MW" decimals="0">1035</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T110000" unitRef="MW" decimals="0">1056</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T120000" unitRef="MW" decimals="0">1062</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T130000" unitRef="MW" decimals="0">1078</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T140000" unitRef="MW" decimals="0">1075</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T150000" unitRef="MW" decimals="0">1069</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T160000" unitRef="MW" decimals="0">1061</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T170000" unitRef="MW" decimals="0">1057</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T180000" unitRef="MW" decimals="0">1067</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T190000" unitRef="MW" decimals="0">1099</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T200000" unitRef="MW" decimals="0">1097</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T210000" unitRef="MW" decimals="0">1084</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T220000" unitRef="MW" decimals="0">1063</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-01T230000" unitRef="MW" decimals="0">1044</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaHourlyDemandMegawatts contextRef="Asof2023-01-02T000000" unitRef="MW" decimals="0">1013</ferc:PlanningAreaHourlyDemandMegawatts>
+  <ferc:PlanningAreaName contextRef="From2023-01-01To2023-12-31">Municipal Electric Authority of Georgia</ferc:PlanningAreaName>
+  <ferc:ReportPeriod contextRef="From2023-01-01To2023-12-31">Q4</ferc:ReportPeriod>
+  <ferc:ReportYear contextRef="From2023-01-01To2023-12-31" unitRef="pure" decimals="INF">2023</ferc:ReportYear>
+  <ferc:RespondentIdentificationCode contextRef="From2023-01-01To2023-12-31">13100</ferc:RespondentIdentificationCode>
+  <ferc:RespondentLegalName contextRef="From2023-01-01To2023-12-31">Municipal Electric Authority of Georgia</ferc:RespondentLegalName>
+  <ferc:RespondentMailingAddress contextRef="From2023-01-01To2023-12-31">1470 Riveredge Parkway, NW Atlanta, GA  30328</ferc:RespondentMailingAddress>
+  <ferc:SubmissionType contextRef="From2023-01-01To2023-12-31">O</ferc:SubmissionType>
+  <ferc:TelephoneOfContactPerson contextRef="From2023-01-01To2023-12-31">770-563-0586</ferc:TelephoneOfContactPerson>
+  <ferc:TimeZone contextRef="From2023-01-01To2023-01-01">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-02To2023-01-02">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-03To2023-01-03">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-04To2023-01-04">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-05To2023-01-05">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-06To2023-01-06">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-07To2023-01-07">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-08To2023-01-08">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-09To2023-01-09">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-10To2023-01-10">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-11To2023-01-11">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-12To2023-01-12">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-13To2023-01-13">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-14To2023-01-14">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-15To2023-01-15">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-16To2023-01-16">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-17To2023-01-17">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-18To2023-01-18">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-19To2023-01-19">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-20To2023-01-20">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-21To2023-01-21">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-22To2023-01-22">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-23To2023-01-23">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-24To2023-01-24">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-25To2023-01-25">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-26To2023-01-26">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-27To2023-01-27">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-28To2023-01-28">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-29To2023-01-29">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-30To2023-01-30">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-01-31To2023-01-31">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-01To2023-02-01">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-02To2023-02-02">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-03To2023-02-03">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-04To2023-02-04">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-05To2023-02-05">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-06To2023-02-06">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-07To2023-02-07">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-08To2023-02-08">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-09To2023-02-09">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-10To2023-02-10">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-11To2023-02-11">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-12To2023-02-12">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-13To2023-02-13">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-14To2023-02-14">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-15To2023-02-15">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-16To2023-02-16">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-17To2023-02-17">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-18To2023-02-18">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-19To2023-02-19">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-20To2023-02-20">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-21To2023-02-21">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-22To2023-02-22">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-23To2023-02-23">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-24To2023-02-24">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-25To2023-02-25">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-26To2023-02-26">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-27To2023-02-27">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-02-28To2023-02-28">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-01To2023-03-01">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-02To2023-03-02">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-03To2023-03-03">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-04To2023-03-04">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-05To2023-03-05">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-06To2023-03-06">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-07To2023-03-07">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-08To2023-03-08">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-09To2023-03-09">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-10To2023-03-10">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-11To2023-03-11">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-12To2023-03-12">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-13To2023-03-13">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-14To2023-03-14">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-15To2023-03-15">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-16To2023-03-16">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-17To2023-03-17">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-18To2023-03-18">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-19To2023-03-19">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-20To2023-03-20">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-21To2023-03-21">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-22To2023-03-22">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-23To2023-03-23">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-24To2023-03-24">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-25To2023-03-25">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-26To2023-03-26">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-27To2023-03-27">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-28To2023-03-28">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-29To2023-03-29">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-30To2023-03-30">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-03-31To2023-03-31">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-01To2023-04-01">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-02To2023-04-02">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-03To2023-04-03">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-04To2023-04-04">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-05To2023-04-05">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-06To2023-04-06">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-07To2023-04-07">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-08To2023-04-08">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-09To2023-04-09">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-10To2023-04-10">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-11To2023-04-11">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-12To2023-04-12">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-13To2023-04-13">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-14To2023-04-14">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-15To2023-04-15">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-16To2023-04-16">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-17To2023-04-17">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-18To2023-04-18">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-19To2023-04-19">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-20To2023-04-20">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-21To2023-04-21">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-22To2023-04-22">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-23To2023-04-23">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-24To2023-04-24">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-25To2023-04-25">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-26To2023-04-26">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-27To2023-04-27">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-28To2023-04-28">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-29To2023-04-29">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-04-30To2023-04-30">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-01To2023-05-01">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-02To2023-05-02">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-03To2023-05-03">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-04To2023-05-04">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-05To2023-05-05">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-06To2023-05-06">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-07To2023-05-07">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-08To2023-05-08">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-09To2023-05-09">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-10To2023-05-10">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-11To2023-05-11">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-12To2023-05-12">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-13To2023-05-13">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-14To2023-05-14">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-15To2023-05-15">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-16To2023-05-16">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-17To2023-05-17">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-18To2023-05-18">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-19To2023-05-19">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-20To2023-05-20">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-21To2023-05-21">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-22To2023-05-22">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-23To2023-05-23">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-24To2023-05-24">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-25To2023-05-25">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-26To2023-05-26">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-27To2023-05-27">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-28To2023-05-28">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-29To2023-05-29">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-30To2023-05-30">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-05-31To2023-05-31">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-01To2023-06-01">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-02To2023-06-02">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-03To2023-06-03">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-04To2023-06-04">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-05To2023-06-05">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-06To2023-06-06">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-07To2023-06-07">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-08To2023-06-08">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-09To2023-06-09">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-10To2023-06-10">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-11To2023-06-11">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-12To2023-06-12">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-13To2023-06-13">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-14To2023-06-14">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-15To2023-06-15">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-16To2023-06-16">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-17To2023-06-17">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-18To2023-06-18">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-19To2023-06-19">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-20To2023-06-20">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-21To2023-06-21">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-22To2023-06-22">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-23To2023-06-23">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-24To2023-06-24">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-25To2023-06-25">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-26To2023-06-26">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-27To2023-06-27">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-28To2023-06-28">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-29To2023-06-29">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-06-30To2023-06-30">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-01To2023-07-01">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-02To2023-07-02">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-03To2023-07-03">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-04To2023-07-04">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-05To2023-07-05">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-06To2023-07-06">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-07To2023-07-07">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-08To2023-07-08">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-09To2023-07-09">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-10To2023-07-10">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-11To2023-07-11">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-12To2023-07-12">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-13To2023-07-13">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-14To2023-07-14">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-15To2023-07-15">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-16To2023-07-16">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-17To2023-07-17">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-18To2023-07-18">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-19To2023-07-19">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-20To2023-07-20">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-21To2023-07-21">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-22To2023-07-22">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-23To2023-07-23">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-24To2023-07-24">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-25To2023-07-25">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-26To2023-07-26">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-27To2023-07-27">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-28To2023-07-28">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-29To2023-07-29">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-30To2023-07-30">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-07-31To2023-07-31">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-01To2023-08-01">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-02To2023-08-02">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-03To2023-08-03">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-04To2023-08-04">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-05To2023-08-05">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-06To2023-08-06">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-07To2023-08-07">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-08To2023-08-08">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-09To2023-08-09">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-10To2023-08-10">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-11To2023-08-11">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-12To2023-08-12">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-13To2023-08-13">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-14To2023-08-14">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-15To2023-08-15">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-16To2023-08-16">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-17To2023-08-17">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-18To2023-08-18">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-19To2023-08-19">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-20To2023-08-20">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-21To2023-08-21">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-22To2023-08-22">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-23To2023-08-23">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-24To2023-08-24">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-25To2023-08-25">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-26To2023-08-26">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-27To2023-08-27">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-28To2023-08-28">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-29To2023-08-29">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-30To2023-08-30">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-08-31To2023-08-31">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-01To2023-09-01">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-02To2023-09-02">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-03To2023-09-03">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-04To2023-09-04">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-05To2023-09-05">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-06To2023-09-06">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-07To2023-09-07">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-08To2023-09-08">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-09To2023-09-09">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-10To2023-09-10">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-11To2023-09-11">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-12To2023-09-12">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-13To2023-09-13">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-14To2023-09-14">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-15To2023-09-15">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-16To2023-09-16">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-17To2023-09-17">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-18To2023-09-18">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-19To2023-09-19">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-20To2023-09-20">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-21To2023-09-21">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-22To2023-09-22">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-23To2023-09-23">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-24To2023-09-24">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-25To2023-09-25">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-26To2023-09-26">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-27To2023-09-27">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-28To2023-09-28">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-29To2023-09-29">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-09-30To2023-09-30">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-01To2023-10-01">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-02To2023-10-02">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-03To2023-10-03">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-04To2023-10-04">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-05To2023-10-05">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-06To2023-10-06">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-07To2023-10-07">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-08To2023-10-08">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-09To2023-10-09">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-10To2023-10-10">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-11To2023-10-11">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-12To2023-10-12">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-13To2023-10-13">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-14To2023-10-14">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-15To2023-10-15">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-16To2023-10-16">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-17To2023-10-17">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-18To2023-10-18">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-19To2023-10-19">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-20To2023-10-20">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-21To2023-10-21">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-22To2023-10-22">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-23To2023-10-23">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-24To2023-10-24">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-25To2023-10-25">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-26To2023-10-26">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-27To2023-10-27">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-28To2023-10-28">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-29To2023-10-29">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-30To2023-10-30">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-10-31To2023-10-31">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-01To2023-11-01">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-02To2023-11-02">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-03To2023-11-03">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-04To2023-11-04">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-05To2023-11-05">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-06To2023-11-06">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-07To2023-11-07">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-08To2023-11-08">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-09To2023-11-09">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-10To2023-11-10">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-11To2023-11-11">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-12To2023-11-12">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-13To2023-11-13">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-14To2023-11-14">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-15To2023-11-15">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-16To2023-11-16">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-17To2023-11-17">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-18To2023-11-18">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-19To2023-11-19">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-20To2023-11-20">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-21To2023-11-21">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-22To2023-11-22">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-23To2023-11-23">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-24To2023-11-24">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-25To2023-11-25">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-26To2023-11-26">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-27To2023-11-27">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-28To2023-11-28">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-29To2023-11-29">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-11-30To2023-11-30">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-01To2023-12-01">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-02To2023-12-02">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-03To2023-12-03">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-04To2023-12-04">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-05To2023-12-05">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-06To2023-12-06">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-07To2023-12-07">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-08To2023-12-08">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-09To2023-12-09">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-10To2023-12-10">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-11To2023-12-11">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-12To2023-12-12">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-13To2023-12-13">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-14To2023-12-14">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-15To2023-12-15">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-16To2023-12-16">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-17To2023-12-17">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-18To2023-12-18">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-19To2023-12-19">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-20To2023-12-20">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-21To2023-12-21">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-22To2023-12-22">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-23To2023-12-23">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-24To2023-12-24">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-25To2023-12-25">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-26To2023-12-26">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-27To2023-12-27">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-28To2023-12-28">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-29To2023-12-29">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-30To2023-12-30">EST</ferc:TimeZone>
+  <ferc:TimeZone contextRef="From2023-12-31To2023-12-31">EST</ferc:TimeZone>
+  <ferc:TitleOfCertifyingOfficial contextRef="From2023-01-01To2023-12-31">Manager, Power Supply Planning</ferc:TitleOfCertifyingOfficial>
+  <ferc:TitleOfContactPerson contextRef="From2023-01-01To2023-12-31">Manager, Power Supply Planning</ferc:TitleOfContactPerson>
+</xbrl:xbrl>
