@@ -158,7 +158,7 @@ cython_debug/
 ferc_714_xml_files
 ferc_714_Q4_2023
 ferc_714_Q4_2022
-
+ferc_714_Q4_2021
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
