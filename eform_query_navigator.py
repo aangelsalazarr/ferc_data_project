@@ -27,6 +27,14 @@ objects and areas that we can filter for on the webpage
 8. Filing ID:
 '''
 
+#==============================================================================
+# CHOOSE INPUTS TO RUN ON
+#==============================================================================
+choose_year = '2022'
+choose_form = 'Form 714'
+
+
+
 # this is node naught, where we begin our navigation journey
 eform_url = "https://ecollection.ferc.gov/submissionHistory"
 
@@ -43,7 +51,7 @@ driver.get(url=eform_url)
 eform_tbl_row1 = '/html/body/div/app-root/submission-history/div/ag-grid-angular/div/div[1]/div/div[3]/div[2]/div/div/div[1]/div[1]'
 
 # waiting for webpage to fully load and we know this by the existence of the table with form data
-WebDriverWait(driver, 17).until(EC.presence_of_all_elements_located((By.XPATH, eform_tbl_row1)))
+WebDriverWait(driver, 16).until(EC.presence_of_all_elements_located((By.XPATH, eform_tbl_row1)))
 
 # letting the user know that the eform table has been identified
 print('Table containing eforms is present (=')
@@ -56,7 +64,7 @@ year_button.click()
 # now we want to input string value represetning year we would like to filter for year, e.g. 2024
 year_filter_input = '/html/body/div/app-root/submission-history/div/ag-grid-angular/div/div[3]/div/div/div/div[1]/div[1]/div[1]/input'
 year_filter = driver.find_element(By.XPATH, year_filter_input)
-year_filter.send_keys('2023')
+year_filter.send_keys(f'{choose_year}')
 
 # purpose is to click apply filter on the year filter
 apply_year_filter_path = '/html/body/div[1]/app-root/submission-history/div/ag-grid-angular/div/div[3]/div/div/div/div[2]/button[2]'
@@ -81,7 +89,7 @@ form_button.click()
 # now we are inserting the form type we want to filter for
 form_filter_input = '//*[@id="textFilter"]'
 form_filter = driver.find_element(By.XPATH, form_filter_input)
-form_filter.send_keys('Form 714')
+form_filter.send_keys(f'{choose_form}')
 
 # purpose is to click on the search icon to apply filter
 apply_form_filter_path = '/html/body/div[1]/app-root/submission-history/div/ag-grid-angular/div/div[3]/div/div/set-filter/div/div[3]/div/mat-form-field/div/div[1]/div[2]'
@@ -124,9 +132,9 @@ def grab_eform_tbl():
 
     return dataframe
 
-# checking to see if we can successfully grabe the table
+# checking to see if we can successfully grabbed the table
 test_case = grab_eform_tbl()
-test_case.to_csv('process_check/temp_eform_results.csv', index=False)
+test_case.to_csv(f'process_check/{choose_year}_temp_eform_results.csv', index=False)
 
 
 # given the total number of results, returns total number of results
@@ -196,6 +204,7 @@ for page_num in range(1, total_results_pages+1):
     else: 
         print("at the last page!")
 
+
 # checking our master df 
 print(master_df)
 
@@ -209,7 +218,7 @@ master_df.to_csv(f'process_check/{eform_file_pull_name}_{today}.csv',
 
 # letting the webpage chill out for a bit to allow for the eforms site to load
 # webpage loads in a little under 7 seconds so setting at 10 should be sufficient
-time.sleep(15)
+time.sleep(13)
 
 # closing the window of our loaded webpage
 driver.quit()
@@ -219,4 +228,4 @@ filing_ids_list = list(master_df['Filing ID'])
 print(filing_ids_list)
 
 # moving on to return filings
-eqp.return_eform_filings(filing_ids=filing_ids_list)
+eqp.return_eform_filings(filing_ids=filing_ids_list, save_path='ferc_714_Q4_2022')

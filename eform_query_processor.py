@@ -4,13 +4,6 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 from selenium.webdriver.chrome.options import Options
 
-# filing id test list
-# these are 2 test cases because each has different xpath for the xml donwload button
-filing_id_test_list = ['182066', '192310']
-
-# test case where xrbl file ends with .xml 
-salt_river_test = ['192277']
-
 # function that iterates through list to grab filings
 def return_eform_filings(filing_ids: list, save_path: str):
     '''
