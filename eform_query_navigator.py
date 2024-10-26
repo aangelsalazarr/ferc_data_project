@@ -228,4 +228,4 @@ filing_ids_list = list(master_df['Filing ID'])
 print(filing_ids_list)
 
 # moving on to return filings
-eqp.return_eform_filings(filing_ids=filing_ids_list, save_path='ferc_714_Q4_2022')
+#eqp.return_eform_filings(filing_ids=filing_ids_list, save_path='ferc_714_Q4_2022')
