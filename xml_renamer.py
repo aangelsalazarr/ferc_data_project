@@ -106,7 +106,7 @@ def refname_xml_base(dframe: object):
         combined_string = ' '.join(row[columns_to_combine].astype(str))
 
         # in essence now changing all sub text into underscores
-        final_string = clean_initial_refname(subname_list=list(combined_string))
+        final_string = clean_initial_refname(refname_list=list(combined_string))
 
         # combined final string where we have converted all sub elements in our words
         f_string = ''.join([str(item) for item in final_string])
