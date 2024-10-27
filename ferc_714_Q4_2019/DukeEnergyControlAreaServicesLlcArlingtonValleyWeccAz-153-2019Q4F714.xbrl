@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:utr="http://www.xbrl.org/2009/utr" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ferc="http://ferc.gov/form/2021-01-01/ferc">
+	<link:schemaRef xlink:type="simple" xlink:href="https://eCollection.ferc.gov/taxonomy/form714/2021-01-01/form/Form714/form-714_2021-01-01.xsd"/>
+	<unit id="u-01">
+		<measure>pure</measure>
+	</unit>
+	<unit id="u-02">
+		<measure>utr:MW</measure>
+	</unit>
+	<unit id="u-03">
+		<measure>utr:MWh</measure>
+	</unit>
+	<unit id="u-04">
+		<measure>utr:V</measure>
+	</unit>
+	<context id="c-01">
+		<entity>
+			<identifier scheme="http://xbrl.org/entity/identification/scheme">R714153</identifier>
+		</entity>
+		<period>
+			<startDate>2019-01-01</startDate>
+			<endDate>2019-12-31</endDate>
+		</period>
+	</context>
+	<context id="c-02">
+		<entity>
+			<identifier scheme="http://xbrl.org/entity/identification/scheme">R714153</identifier>
+			<segment>
+				<xbrldi:typedMember dimension="ferc:GeneratingPlantsIncludedInReportingBalancingAuthorityAreaAxis">
+					<ferc:GeneratingPlantsIncludedInReportingBalancingAuthorityAreaDomain>0-1</ferc:GeneratingPlantsIncludedInReportingBalancingAuthorityAreaDomain>
+				</xbrldi:typedMember>
+			</segment>
+		</entity>
+		<period>
+			<startDate>2019-01-01</startDate>
+			<endDate>2019-12-31</endDate>
+		</period>
+	</context>
+	<context id="c-03">
+		<entity>
+			<identifier scheme="http://xbrl.org/entity/identification/scheme">R714153</identifier>
+			<segment>
+				<xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:JanuaryMember</xbrldi:explicitMember>
+			</segment>
+		</entity>
+		<period>
+			<startDate>2019-01-01</startDate>
+			<endDate>2019-12-31</endDate>
+		</period>
+	</context>
+	<context id="c-04">
+		<entity>
+			<identifier scheme="http://xbrl.org/entity/identification/scheme">R714153</identifier>
+			<segment>
+				<xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:FebruaryMember</xbrldi:explicitMember>
+			</segment>
+		</entity>
+		<period>
+			<startDate>2019-01-01</startDate>
+			<endDate>2019-12-31</endDate>
+		</period>
+	</context>
+	<context id="c-05">
+		<entity>
+			<identifier scheme="http://xbrl.org/entity/identification/scheme">R714153</identifier>
+			<segment>
+				<xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:MarchMember</xbrldi:explicitMember>
+			</segment>
+		</entity>
+		<period>
+			<startDate>2019-01-01</startDate>
+			<endDate>2019-12-31</endDate>
+		</period>
+	</context>
+	<context id="c-06">
+		<entity>
+			<identifier scheme="http://xbrl.org/entity/identification/scheme">R714153</identifier>
+			<segment>
+				<xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:AprilMember</xbrldi:explicitMember>
+			</segment>
+		</entity>
+		<period>
+			<startDate>2019-01-01</startDate>
+			<endDate>2019-12-31</endDate>
+		</period>
+	</context>
+	<context id="c-07">
+		<entity>
+			<identifier scheme="http://xbrl.org/entity/identification/scheme">R714153</identifier>
+			<segment>
+				<xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:MayMember</xbrldi:explicitMember>
+			</segment>
+		</entity>
+		<period>
+			<startDate>2019-01-01</startDate>
+			<endDate>2019-12-31</endDate>
+		</period>
+	</context>
+	<context id="c-08">
+		<entity>
+			<identifier scheme="http://xbrl.org/entity/identification/scheme">R714153</identifier>
+			<segment>
+				<xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:JuneMember</xbrldi:explicitMember>
+			</segment>
+		</entity>
+		<period>
+			<startDate>2019-01-01</startDate>
+			<endDate>2019-12-31</endDate>
+		</period>
+	</context>
+	<context id="c-09">
+		<entity>
+			<identifier scheme="http://xbrl.org/entity/identification/scheme">R714153</identifier>
+			<segment>
+				<xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:AugustMember</xbrldi:explicitMember>
+			</segment>
+		</entity>
+		<period>
+			<startDate>2019-01-01</startDate>
+			<endDate>2019-12-31</endDate>
+		</period>
+	</context>
+	<context id="c-10">
+		<entity>
+			<identifier scheme="http://xbrl.org/entity/identification/scheme">R714153</identifier>
+			<segment>
+				<xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:SeptemberMember</xbrldi:explicitMember>
+			</segment>
+		</entity>
+		<period>
+			<startDate>2019-01-01</startDate>
+			<endDate>2019-12-31</endDate>
+		</period>
+	</context>
+	<context id="c-11">
+		<entity>
+			<identifier scheme="http://xbrl.org/entity/identification/scheme">R714153</identifier>
+			<segment>
+				<xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:OctoberMember</xbrldi:explicitMember>
+			</segment>
+		</entity>
+		<period>
+			<startDate>2019-01-01</startDate>
+			<endDate>2019-12-31</endDate>
+		</period>
+	</context>
+	<context id="c-12">
+		<entity>
+			<identifier scheme="http://xbrl.org/entity/identification/scheme">R714153</identifier>
+			<segment>
+				<xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:NovemberMember</xbrldi:explicitMember>
+			</segment>
+		</entity>
+		<period>
+			<startDate>2019-01-01</startDate>
+			<endDate>2019-12-31</endDate>
+		</period>
+	</context>
+	<context id="c-13">
+		<entity>
+			<identifier scheme="http://xbrl.org/entity/identification/scheme">R714153</identifier>
+			<segment>
+				<xbrldi:explicitMember dimension="ferc:MonthAxis">ferc:DecemberMember</xbrldi:explicitMember>
+			</segment>
+		</entity>
+		<period>
+			<startDate>2019-01-01</startDate>
+			<endDate>2019-12-31</endDate>
+		</period>
+	</context>
+	<context id="c-14">
+		<entity>
+			<identifier scheme="http://xbrl.org/entity/identification/scheme">R714153</identifier>
+			<segment>
+				<xbrldi:typedMember dimension="ferc:AdjacentBalancingAuthorityAreaInterconnectionsAxis">
+					<ferc:AdjacentBalancingAuthorityAreaInterconnectionsDomain>0-1</ferc:AdjacentBalancingAuthorityAreaInterconnectionsDomain>
+				</xbrldi:typedMember>
+			</segment>
+		</entity>
+		<period>
+			<startDate>2019-01-01</startDate>
+			<endDate>2019-12-31</endDate>
+		</period>
+	</context>
+	<context id="c-15">
+		<entity>
+			<identifier scheme="http://xbrl.org/entity/identification/scheme">R714153</identifier>
+			<segment>
+				<xbrldi:typedMember dimension="ferc:BalancingAuthorityAreaScheduledAndActualInterchangeAxis">
+					<ferc:BalancingAuthorityAreaScheduledAndActualInterchangeDomain>0-1</ferc:BalancingAuthorityAreaScheduledAndActualInterchangeDomain>
+				</xbrldi:typedMember>
+			</segment>
+		</entity>
+		<period>
+			<startDate>2019-01-01</startDate>
+			<endDate>2019-12-31</endDate>
+		</period>
+	</context>
+	<ferc:RespondentLegalName contextRef="c-01" id="f-01">Duke Energy Control Area Services, LLC (Arlington Valley WECC AZ)</ferc:RespondentLegalName>
+	<ferc:CompanyIdentifier contextRef="c-01" id="f-03">R714153</ferc:CompanyIdentifier>
+	<ferc:FormType contextRef="c-01" id="f-04">714</ferc:FormType>
+	<ferc:ReportYear decimals="0" contextRef="c-01" unitRef="u-01" id="f-02">2019</ferc:ReportYear>
+	<ferc:ReportPeriod contextRef="c-01" id="f-05">Q4</ferc:ReportPeriod>
+	<ferc:BalancingAuthorityAreaFlag contextRef="c-01" id="f-06">true</ferc:BalancingAuthorityAreaFlag>
+	<ferc:BalancingAuthorityAreaName contextRef="c-01" id="f-07">Arlington Valley (DEAA)</ferc:BalancingAuthorityAreaName>
+	<ferc:PlanningAreaFlag contextRef="c-01" id="f-08">false</ferc:PlanningAreaFlag>
+	<ferc:RespondentMailingAddress contextRef="c-01" id="f-09">1301 Fannin St. Suite 1000
+
+Houston, TX 77002</ferc:RespondentMailingAddress>
+	<ferc:NameOfContactPerson contextRef="c-01" id="f-10">Antonio Franco</ferc:NameOfContactPerson>
+	<ferc:TitleOfContactPerson contextRef="c-01" id="f-11">Director Reliability Compliance</ferc:TitleOfContactPerson>
+	<ferc:EmailOfContactPerson contextRef="c-01" id="f-12">antonio.franco@gridforce.com</ferc:EmailOfContactPerson>
+	<ferc:TelephoneOfContactPerson contextRef="c-01" id="f-13">713-332-2912</ferc:TelephoneOfContactPerson>
+	<ferc:NameOfCertifyingOfficial contextRef="c-01" id="f-14">Carolyn J. Ingersoll</ferc:NameOfCertifyingOfficial>
+	<ferc:TitleOfCertifyingOfficial contextRef="c-01" id="f-15">President</ferc:TitleOfCertifyingOfficial>
+	<ferc:CertifyingOfficialDate contextRef="c-01" id="f-16">2020-05-21</ferc:CertifyingOfficialDate>
+	<ferc:SubmissionType contextRef="c-01" id="f-17">O</ferc:SubmissionType>
+	<ferc:UnitDispatchNotBasedOnEconomicDispatchOfThermalUnits contextRef="c-01" id="f-18">true</ferc:UnitDispatchNotBasedOnEconomicDispatchOfThermalUnits>
+	<ferc:ElectricUtilityName contextRef="c-02" id="f-19">Arlington Valley, LLC</ferc:ElectricUtilityName>
+	<ferc:PlantName contextRef="c-02" id="f-20">Arlington Valley, LLC</ferc:PlantName>
+	<ferc:PlantAvailableCapacityAtTheHourOfTheAnnualPeakDemandOnNetEnergyForLoad xsi:nil="true" contextRef="c-02" unitRef="u-02" id="f-21"/>
+	<ferc:IntegratedNetLoadOnThePlantAtTheHourOfTheAnnualPeakDemandBasedOnNetEnergyForLoad xsi:nil="true" contextRef="c-02" unitRef="u-02" id="f-22"/>
+	<ferc:PlantsAvailableCapability xsi:nil="true" contextRef="c-03" unitRef="u-02" id="f-23"/>
+	<ferc:UnavailableCapabilityDueToPlannedOutageAndDerating xsi:nil="true" contextRef="c-03" unitRef="u-02" id="f-24"/>
+	<ferc:UnavailableCapabilityDueToUnplannedOutageAndDerating xsi:nil="true" contextRef="c-03" unitRef="u-02" id="f-25"/>
+	<ferc:UnavailableCapabilityDueToOtherOutageAndDerating xsi:nil="true" contextRef="c-03" unitRef="u-02" id="f-26"/>
+	<ferc:NetCapabilityFromPlants xsi:nil="true" contextRef="c-03" unitRef="u-02" id="f-27"/>
+	<ferc:ExternalToTheBalancingAuthorityAreaNetUnitOrFirmCapabilityAvailable xsi:nil="true" contextRef="c-03" unitRef="u-02" id="f-28"/>
+	<ferc:ExternalToTheBalancingAuthorityAreaNetUnitOrFirmCapabilityNotAvailable xsi:nil="true" contextRef="c-03" unitRef="u-02" id="f-29"/>
+	<ferc:NetCapabilityAtTheTimeOfTheMonthlyPeakDemand xsi:nil="true" contextRef="c-03" unitRef="u-02" id="f-30"/>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration decimals="0" contextRef="c-03" unitRef="u-03" id="f-31">42659</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration decimals="0" contextRef="c-04" unitRef="u-03" id="f-33">69191</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration decimals="0" contextRef="c-05" unitRef="u-03" id="f-35">260602</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration decimals="0" contextRef="c-06" unitRef="u-03" id="f-37">210124</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration decimals="0" contextRef="c-07" unitRef="u-03" id="f-39">1014</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration decimals="0" contextRef="c-08" unitRef="u-03" id="f-41">16</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration decimals="0" contextRef="c-09" unitRef="u-03" id="f-43">88</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration decimals="0" contextRef="c-10" unitRef="u-03" id="f-45">109</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration decimals="0" contextRef="c-11" unitRef="u-03" id="f-47">16</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration decimals="0" contextRef="c-12" unitRef="u-03" id="f-49">307984</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration decimals="0" contextRef="c-13" unitRef="u-03" id="f-51">345086</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration decimals="0" contextRef="c-01" unitRef="u-03" id="f-53">1236889</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthBalancingAuthorityAreaNetGeneration>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange decimals="0" contextRef="c-03" unitRef="u-03" id="f-32">-42659</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange decimals="0" contextRef="c-04" unitRef="u-03" id="f-34">-69191</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange decimals="0" contextRef="c-05" unitRef="u-03" id="f-36">-260602</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange decimals="0" contextRef="c-06" unitRef="u-03" id="f-38">-210124</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange decimals="0" contextRef="c-07" unitRef="u-03" id="f-40">-1014</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange decimals="0" contextRef="c-08" unitRef="u-03" id="f-42">-16</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange decimals="0" contextRef="c-09" unitRef="u-03" id="f-44">-88</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange decimals="0" contextRef="c-10" unitRef="u-03" id="f-46">-109</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange decimals="0" contextRef="c-11" unitRef="u-03" id="f-48">-16</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange decimals="0" contextRef="c-12" unitRef="u-03" id="f-50">-307984</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange decimals="0" contextRef="c-13" unitRef="u-03" id="f-52">-345086</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+	<ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange decimals="0" contextRef="c-01" unitRef="u-03" id="f-54">-1236889</ferc:NetEnergyForLoadAndPeakDemandSourcesByMonthNetActualInterchange>
+	<ferc:NameOfAdjacentBalancingAuthorityArea contextRef="c-14" id="f-55">Salt River Project (SRP)</ferc:NameOfAdjacentBalancingAuthorityArea>
+	<ferc:BalancingAuthorityAreaInterconnectionLineOrBusNames contextRef="c-14" id="f-56">Hassayampa Switchyard</ferc:BalancingAuthorityAreaInterconnectionLineOrBusNames>
+	<ferc:LineOrBusVoltage decimals="0" contextRef="c-14" unitRef="u-04" id="f-57">500</ferc:LineOrBusVoltage>
+	<ferc:NameOfBalancingAuthorityArea contextRef="c-15" id="f-58">Salt River Project</ferc:NameOfBalancingAuthorityArea>
+	<ferc:ScheduledInterchangeBetweenBalancingAuthorityAreasReceived decimals="0" contextRef="c-15" unitRef="u-03" id="f-59">-105559</ferc:ScheduledInterchangeBetweenBalancingAuthorityAreasReceived>
+	<ferc:ScheduledInterchangeBetweenBalancingAuthorityAreasReceived decimals="0" contextRef="c-01" unitRef="u-03" id="f-63">-105559</ferc:ScheduledInterchangeBetweenBalancingAuthorityAreasReceived>
+	<ferc:ScheduledInterchangeBetweenBalancingAuthorityAreasDelivered decimals="0" contextRef="c-15" unitRef="u-03" id="f-60">13400053</ferc:ScheduledInterchangeBetweenBalancingAuthorityAreasDelivered>
+	<ferc:ScheduledInterchangeBetweenBalancingAuthorityAreasDelivered decimals="0" contextRef="c-01" unitRef="u-03" id="f-64">13400053</ferc:ScheduledInterchangeBetweenBalancingAuthorityAreasDelivered>
+	<ferc:ActualInterchangeBetweenAdjacentBalancingAuthorityAreasReceived xsi:nil="true" contextRef="c-15" unitRef="u-03" id="f-61"/>
+	<ferc:ActualInterchangeBetweenAdjacentBalancingAuthorityAreasDelivered decimals="0" contextRef="c-15" unitRef="u-03" id="f-62">1236889</ferc:ActualInterchangeBetweenAdjacentBalancingAuthorityAreasDelivered>
+	<ferc:ActualInterchangeBetweenAdjacentBalancingAuthorityAreasDelivered decimals="0" contextRef="c-01" unitRef="u-03" id="f-65">1236889</ferc:ActualInterchangeBetweenAdjacentBalancingAuthorityAreasDelivered>
+	<ferc:OrderNumber contextRef="c-02" decimals="INF" unitRef="u-01" id="f-66">1</ferc:OrderNumber>
+	<ferc:OrderNumber contextRef="c-14" decimals="INF" unitRef="u-01" id="f-67">1</ferc:OrderNumber>
+	<ferc:OrderNumber contextRef="c-15" decimals="INF" unitRef="u-01" id="f-68">1</ferc:OrderNumber>
+	<link:footnoteLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+		<link:loc xlink:type="locator" xlink:label="f-06_lbl" xlink:href="#f-06"/>
+		<link:loc xlink:type="locator" xlink:label="f-18_lbl" xlink:href="#f-18"/>
+		<link:loc xlink:type="locator" xlink:label="f-21_lbl" xlink:href="#f-21"/>
+		<link:loc xlink:type="locator" xlink:label="f-22_lbl" xlink:href="#f-22"/>
+		<link:loc xlink:type="locator" xlink:label="f-23_lbl" xlink:href="#f-23"/>
+		<link:loc xlink:type="locator" xlink:label="f-24_lbl" xlink:href="#f-24"/>
+		<link:loc xlink:type="locator" xlink:label="f-25_lbl" xlink:href="#f-25"/>
+		<link:loc xlink:type="locator" xlink:label="f-26_lbl" xlink:href="#f-26"/>
+		<link:loc xlink:type="locator" xlink:label="f-27_lbl" xlink:href="#f-27"/>
+		<link:loc xlink:type="locator" xlink:label="f-28_lbl" xlink:href="#f-28"/>
+		<link:loc xlink:type="locator" xlink:label="f-29_lbl" xlink:href="#f-29"/>
+		<link:loc xlink:type="locator" xlink:label="f-30_lbl" xlink:href="#f-30"/>
+		<link:loc xlink:type="locator" xlink:label="f-61_lbl" xlink:href="#f-61"/>
+		<link:footnoteArc order="1" xlink:to="ft-06_lbl" xlink:from="f-06_lbl" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"/>
+		<link:footnoteArc order="1" xlink:to="ft-18_lbl" xlink:from="f-18_lbl" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"/>
+		<link:footnoteArc order="1" xlink:to="ft-21_lbl" xlink:from="f-21_lbl" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"/>
+		<link:footnoteArc order="1" xlink:to="ft-22_lbl" xlink:from="f-22_lbl" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"/>
+		<link:footnoteArc order="1" xlink:to="ft-23_lbl" xlink:from="f-23_lbl" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"/>
+		<link:footnoteArc order="1" xlink:to="ft-24_lbl" xlink:from="f-24_lbl" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"/>
+		<link:footnoteArc order="1" xlink:to="ft-25_lbl" xlink:from="f-25_lbl" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"/>
+		<link:footnoteArc order="1" xlink:to="ft-26_lbl" xlink:from="f-26_lbl" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"/>
+		<link:footnoteArc order="1" xlink:to="ft-27_lbl" xlink:from="f-27_lbl" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"/>
+		<link:footnoteArc order="1" xlink:to="ft-28_lbl" xlink:from="f-28_lbl" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"/>
+		<link:footnoteArc order="1" xlink:to="ft-29_lbl" xlink:from="f-29_lbl" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"/>
+		<link:footnoteArc order="1" xlink:to="ft-30_lbl" xlink:from="f-30_lbl" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"/>
+		<link:footnoteArc order="1" xlink:to="ft-61_lbl" xlink:from="f-61_lbl" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote"/>
+		<link:footnote xlink:type="resource" xlink:label="ft-06_lbl" xml:lang="en-US" xlink:role="http://www.xbrl.org/2003/role/footnote">Original value: True</link:footnote>
+		<link:footnote xlink:type="resource" xlink:label="ft-18_lbl" xml:lang="en-US" xlink:role="http://www.xbrl.org/2003/role/footnote">Original value: True</link:footnote>
+		<link:footnote xlink:type="resource" xlink:label="ft-21_lbl" xml:lang="en-US" xlink:role="http://www.xbrl.org/2003/role/footnote" xmlns="http://www.w3.org/1999/xhtml"><div style="font-family:'Arial';font-size:12pt;background-color:#FFFFFF;text-align:left;">
+<p style="text-indent:0pt;margin-top:0pt;margin-bottom:0pt;font-size:10pt;">This BA has no load within its metered boundaries</p>
+</div></link:footnote><link:footnote xlink:type="resource" xlink:label="ft-22_lbl" xml:lang="en-US" xlink:role="http://www.xbrl.org/2003/role/footnote" xmlns="http://www.w3.org/1999/xhtml"><div style="font-family:'Arial';font-size:12pt;background-color:#FFFFFF;text-align:left;">
+<p style="text-indent:0pt;margin-top:0pt;margin-bottom:0pt;font-size:10pt;">This BA has no load within its metered boundaries</p>
+</div></link:footnote><link:footnote xlink:type="resource" xlink:label="ft-23_lbl" xml:lang="en-US" xlink:role="http://www.xbrl.org/2003/role/footnote" xmlns="http://www.w3.org/1999/xhtml"><div style="font-family:'Arial';font-size:12pt;background-color:#FFFFFF;text-align:left;">
+<p style="text-indent:0pt;margin-top:0pt;margin-bottom:0pt;font-size:10pt;">This BA has no load within its metered boundaries</p>
+</div></link:footnote><link:footnote xlink:type="resource" xlink:label="ft-24_lbl" xml:lang="en-US" xlink:role="http://www.xbrl.org/2003/role/footnote" xmlns="http://www.w3.org/1999/xhtml"><div style="font-family:'Arial';font-size:12pt;background-color:#FFFFFF;text-align:left;">
+<p style="text-indent:0pt;margin-top:0pt;margin-bottom:0pt;font-size:10pt;">This BA has no load within its metered boundaries</p>
+</div></link:footnote><link:footnote xlink:type="resource" xlink:label="ft-25_lbl" xml:lang="en-US" xlink:role="http://www.xbrl.org/2003/role/footnote" xmlns="http://www.w3.org/1999/xhtml"><div style="font-family:'Arial';font-size:12pt;background-color:#FFFFFF;text-align:left;">
+<p style="text-indent:0pt;margin-top:0pt;margin-bottom:0pt;font-size:10pt;">This BA has no load within its metered boundaries</p>
+</div></link:footnote><link:footnote xlink:type="resource" xlink:label="ft-26_lbl" xml:lang="en-US" xlink:role="http://www.xbrl.org/2003/role/footnote" xmlns="http://www.w3.org/1999/xhtml"><div style="font-family:'Arial';font-size:12pt;background-color:#FFFFFF;text-align:left;">
+<p style="text-indent:0pt;margin-top:0pt;margin-bottom:0pt;font-size:10pt;">This BA has no load within its metered boundaries</p>
+</div></link:footnote><link:footnote xlink:type="resource" xlink:label="ft-27_lbl" xml:lang="en-US" xlink:role="http://www.xbrl.org/2003/role/footnote" xmlns="http://www.w3.org/1999/xhtml"><div style="font-family:'Arial';font-size:12pt;background-color:#FFFFFF;text-align:left;">
+<p style="text-indent:0pt;margin-top:0pt;margin-bottom:0pt;font-size:10pt;">This BA has no load within its metered boundaries</p>
+</div></link:footnote><link:footnote xlink:type="resource" xlink:label="ft-28_lbl" xml:lang="en-US" xlink:role="http://www.xbrl.org/2003/role/footnote" xmlns="http://www.w3.org/1999/xhtml"><div style="font-family:'Arial';font-size:12pt;background-color:#FFFFFF;text-align:left;">
+<p style="text-indent:0pt;margin-top:0pt;margin-bottom:0pt;font-size:10pt;">This BA has no load within its metered boundaries</p>
+</div></link:footnote><link:footnote xlink:type="resource" xlink:label="ft-29_lbl" xml:lang="en-US" xlink:role="http://www.xbrl.org/2003/role/footnote" xmlns="http://www.w3.org/1999/xhtml"><div style="font-family:'Arial';font-size:12pt;background-color:#FFFFFF;text-align:left;">
+<p style="text-indent:0pt;margin-top:0pt;margin-bottom:0pt;font-size:10pt;">This BA has no load within its metered boundaries</p>
+</div></link:footnote><link:footnote xlink:type="resource" xlink:label="ft-30_lbl" xml:lang="en-US" xlink:role="http://www.xbrl.org/2003/role/footnote" xmlns="http://www.w3.org/1999/xhtml"><div style="font-family:'Arial';font-size:12pt;background-color:#FFFFFF;text-align:left;">
+<p style="text-indent:0pt;margin-top:0pt;margin-bottom:0pt;font-size:10pt;">This BA has no load within its metered boundaries</p>
+</div></link:footnote><link:footnote xlink:type="resource" xlink:label="ft-61_lbl" xml:lang="en-US" xlink:role="http://www.xbrl.org/2003/role/footnote" xmlns="http://www.w3.org/1999/xhtml"><div style="font-family:'Arial';font-size:12pt;background-color:#FFFFFF;text-align:left;">
+<p style="text-indent:0pt;margin-top:0pt;margin-bottom:0pt;font-size:10pt;">There was a total of 2,143 MW of actual interchancereceived between adjacent BAAs of which 2,021 MW were for station service and 122 MW for contingency reserves. The zero value entered is because none of the MWs were to meet native load. There is no load within the metered boundaries of this BA.</p>
+</div></link:footnote></link:footnoteLink>
+</xbrl>
