@@ -30,7 +30,7 @@ objects and areas that we can filter for on the webpage
 #==============================================================================
 # CHOOSE INPUTS TO RUN ON
 #==============================================================================
-choose_year = '2019'
+choose_year = '2018'
 choose_form = 'Form 714'
 
 
