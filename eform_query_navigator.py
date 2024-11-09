@@ -30,7 +30,7 @@ objects and areas that we can filter for on the webpage
 #==============================================================================
 # CHOOSE INPUTS TO RUN ON
 #==============================================================================
-choose_year = '2019'
+choose_year = '2011'
 choose_form = 'Form 714'
 
 
@@ -213,12 +213,12 @@ today = str(date.today())
 
 # setting up the name of our main df export csv
 eform_file_pull_name = 'eform_filtered_data'
-master_df.to_csv(f'process_check/{eform_file_pull_name}_{today}.csv', 
+master_df.to_csv(f'process_check/{eform_file_pull_name}_{today}_{choose_year}.csv', 
                  index=False)
 
 # letting the webpage chill out for a bit to allow for the eforms site to load
 # webpage loads in a little under 7 seconds so setting at 10 should be sufficient
-time.sleep(13)
+time.sleep(10)
 
 # closing the window of our loaded webpage
 driver.quit()
