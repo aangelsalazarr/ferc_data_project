@@ -75,7 +75,7 @@ def return_eform_filings(filing_ids: list, save_path: str):
             download_xml_button.click()
 
         # let the website driver browser sleep/chill for a bit
-        time.sleep(20)
+        time.sleep(8)
 
         # closing the browser
         driver.quit()
