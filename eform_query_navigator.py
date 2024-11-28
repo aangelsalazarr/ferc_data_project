@@ -31,7 +31,7 @@ objects and areas that we can filter for on the webpage
 # CHOOSE INPUTS TO RUN ON
 #==============================================================================
 choose_year = '2011'
-choose_form = 'Form 714'
+choose_form = 'Form 1'
 
 
 
@@ -70,12 +70,6 @@ year_filter.send_keys(f'{choose_year}')
 apply_year_filter_path = '/html/body/div[1]/app-root/submission-history/div/ag-grid-angular/div/div[3]/div/div/div/div[2]/button[2]'
 apply_year_filter = driver.find_element(By.XPATH, apply_year_filter_path)
 apply_year_filter.click()
-
-# purpose is to let used select the type of form now
-'''
-Possible string inputs: 
-Form 1, Form 1F, Form 2, Form 2A, Form 3Q Electric, Form 3Q Gas, Form 6, Form 60, Form 6Q, Form 714
-'''
 
 # list of potential forms we can filter for
 form_types = ['Form 1', 'Form 1F', 'Form 2', 'Form 2A', 'Form 3Q Elecrtric', 'Form 3Q Gas', 
@@ -133,8 +127,8 @@ def grab_eform_tbl():
     return dataframe
 
 # checking to see if we can successfully grabbed the table
-test_case = grab_eform_tbl()
-test_case.to_csv(f'process_check/{choose_year}_temp_eform_results.csv', index=False)
+#test_case = grab_eform_tbl()
+#test_case.to_csv(f'process_check/{choose_year}_temp_eform_results.csv', index=False)
 
 
 # given the total number of results, returns total number of results
@@ -178,9 +172,6 @@ master_df = pd.DataFrame()
 
 # iterate process of going through each page and grabbing each table
 for page_num in range(1, total_results_pages+1):
-    '''
-    iterate going through, changing the page number, and then grabbing the loaded table
-    '''
     # printing out what page we are on
     print(f'Currently processing page number: {page_num}')
 
@@ -205,14 +196,27 @@ for page_num in range(1, total_results_pages+1):
         print("at the last page!")
 
 
+# insert an if statement to filter out any non form 1s 
+# the reason why have to do is because successful filter actually returns
+# anything with a '1' in it
+if choose_form == 'Form 1':
+    # filtering to return only Form 1 forms
+    master_df = master_df[master_df['Form'] == 'Form 1']
+    print("Filtering out any non 'Form 1' forms!")
+
+else: 
+    # let user know all is well lol
+    print('All is well, lad!')
+
 # checking our master df 
 print(master_df)
+
 
 # creating a string of todays date
 today = str(date.today())
 
 # setting up the name of our main df export csv
-eform_file_pull_name = 'eform_filtered_data'
+eform_file_pull_name = 'eform_form_1'
 master_df.to_csv(f'process_check/{eform_file_pull_name}_{today}_{choose_year}.csv', 
                  index=False)
 
