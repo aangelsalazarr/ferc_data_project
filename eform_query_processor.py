@@ -33,7 +33,7 @@ def return_eform_filings(filing_ids: list, save_path: str):
         driver.get(f'https://ecollection.ferc.gov/submissionDetails/{filing_id}')
 
         # allow the website to load for a little bit
-        driver.implicitly_wait(13)
+        driver.implicitly_wait(10)
 
         # pulling data from the page to rename our file
         # want to name files as follows: {filing_entity}_ferc_714_{Quarter Period}{Year}.xml
@@ -75,7 +75,7 @@ def return_eform_filings(filing_ids: list, save_path: str):
             download_xml_button.click()
 
         # let the website driver browser sleep/chill for a bit
-        time.sleep(12)
+        time.sleep(10)
 
         # closing the browser
         driver.quit()
