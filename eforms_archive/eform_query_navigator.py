@@ -1,9 +1,10 @@
-import requests 
 import time
 import io
 import pandas as pd
 import math
 from datetime import date
+import requests 
+
 
 # selenium related tools
 from selenium import webdriver
@@ -30,8 +31,8 @@ objects and areas that we can filter for on the webpage
 #==============================================================================
 # CHOOSE INPUTS TO RUN ON
 #==============================================================================
-choose_year = '2011'
-choose_form = 'Form 1'
+choose_year = '2023'
+choose_form = 'Form 714'
 
 
 
@@ -230,6 +231,3 @@ driver.quit()
 # returning list of all filing ids
 filing_ids_list = list(master_df['Filing ID'])
 print(filing_ids_list)
-
-# moving on to return filings
-#eqp.return_eform_filings(filing_ids=filing_ids_list, save_path='ferc_714_Q4_2022')
