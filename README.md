@@ -35,9 +35,15 @@ We will specifically be focused on grabbing public comment files for Order 1920 
 
 [FERC E-Library Homepage](https://elibrary.ferc.gov/eLibrary/search)
 
-FERC Ruling 2023:
+[FERC Ruling 2023](https://www.ferc.gov/explainer-interconnection-final-rule-2023-A): a landmark ruling to modernize the interconnection process for new generation facilities seeking to connect to the power grid. 
+- technically there is 2023-A whcih is an amendment and clarificatino on order 2023
+- order highlights that one of the most important aspects of the interconnection process relates to the technical studies associated with grid reliability and project implentation and connection to the grid. 
+- In Order No. 2023, FERC required that transmission providers study proposed generating facilities in groups or clusters, rather than studying each individually or serially.
 
-FERC Ruling 1920: 
+[FERC Ruling 1920](https://www.ferc.gov/news-events/news/ferc-strengthens-order-no-1920-expanded-state-provisions): requires transmission providers to conduct long-term planning of regional transmission facilities over 20-year time horizon to anticipate future needs and to determine how to pay for those tranmission facilities. 
+- technically there exists a 1920-A which is an amendment to FERC ruling 1920. 
+
+
 
 
 # Packages Required
