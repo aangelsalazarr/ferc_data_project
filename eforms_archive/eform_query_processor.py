@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 import time
 from selenium.webdriver.chrome.options import Options
+import pandas as pd
 
 # function that iterates through list to grab filings
 def return_eform_filings(filing_ids: list, save_path: str):
@@ -81,4 +82,6 @@ def return_eform_filings(filing_ids: list, save_path: str):
         driver.quit()
         
 # test case
+test_ids = pd.read_csv('eform_')
+
 #return_eform_filings(filing_ids=salt_river_test)
