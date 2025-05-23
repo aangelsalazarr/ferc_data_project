@@ -190,6 +190,9 @@ ferc_1_Q4_2022
 ferc_1_Q4_2021
 ferc_1_Q4_2020
 
+# May 2025 files that we need to ignore...
+eforms/form_714_2023
+eforms/form_714_2023 copy
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
