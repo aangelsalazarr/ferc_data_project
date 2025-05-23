@@ -18,12 +18,12 @@ Update: [Catalyst Cooperative](https://github.com/catalyst-cooperative/pudl) is 
 
 # Components
 ### FERC Forms 
-We will specifically be focused on FERF Form 714.
+We will specifically be focused on FERF Form 714. For now we just want to grab the xml files, iterate through each file to categorize it by name and report date, and then go through and see if we can unify reports to view changes in 10 year forecast data by each entity that files this report. 
 
 Ferc 714: Annual Electric Balancing Authority Area and Planning Area Report. Collects the following forecast data:
 - Annual Peak Demand Forecasts (10 Years)
 - Monthly Peak Demand Forecasts
-- Eneergy Usage Forecasts
+- Energy Usage Forecasts
 - Generation Adequacy Assessments
 - Transmission Planning Data
 
