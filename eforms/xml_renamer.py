@@ -1,5 +1,4 @@
 import pandas as pd
-import eform_query_processor as eqp
 import os
 
 '''
@@ -34,6 +33,10 @@ def sort_directory(sort_by: str, dir_path: str):
                 date or by name
     dir_path -> path of directory where we will be storing renamed files
     '''
+    # purpose is to return the time the file was created
+    def get_creation_timestamp(item):
+        item_path = os.path.join(dir_path, item)
+        return os.path.getctime(item_path)
 
     # save a list of the files within specific directory
     items = os.listdir(dir_path)
@@ -44,7 +47,7 @@ def sort_directory(sort_by: str, dir_path: str):
 
         # sorting items from oldest to newest
         sorted_items = sorted(items, 
-                              key=retrieve_creation_timestamp)
+                              key=get_creation_timestamp)
         
         return sorted_items
 
@@ -155,3 +158,14 @@ def rename_all_files(xml_df: object, dir_path: str, sort_by = 'date'):
         # rename file by grabbing location of the 'file' element
         new_fpath = os.rename(f'{true_file_path}', 
                               f'{dir_path}/{temp_xmls[files_list.index(str(file))]}.xml')
+        
+    print(f'Success Renaming Files Located at: {dir_path}')
+        
+
+'''
+# we first need to load in the dataframe we used to pull our data
+xml_df_test = pd.read_csv('eforms/process_check/Form 714_2025-05-23.csv')
+dir_path_test = 'eforms/form_714_2023'
+
+rename_all_files(xml_df=xml_df_test, dir_path=dir_path_test)
+'''
