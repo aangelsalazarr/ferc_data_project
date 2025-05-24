@@ -8,9 +8,48 @@ The FERC website, while very *fresh*, makes it extremely difficult to access pub
 
 Update: [Catalyst Cooperative](https://github.com/catalyst-cooperative/pudl) is a community of individuals working towards building open source tools that can automate and extract information from a myriad of public energy data sources. For context, this is the same entity that processed the data used in the aforementioned report that served as an inspiration for this project! 
 
-# Notebooks
-1. FERC 714 Data Acquisition and Visualization
-2. FERC E-Library Order 2023/1920 Public Comment File Acquisition
+# FERC EFORM SCRIPT TUTORIAL
+1. Run [Extract EForms Script](eforms/extract_eforms_available.py) to obtain a datatable of files that can be grabbed.
+
+```python
+# we are asking function to pull 2024 dated FERC Form 714 Files
+eforms_df = return_eforms(year=2024, form_type='Form 714')
+
+# eforms results list of filing ids
+eforms_filing_ids =      eform_bfuncs.process_eform_data(init_dataframe=eforms_df) 
+```
+2. Run [Pull EForms Script](eforms/pull_eforms_available.py) to iterated through generated data table and save files in order.
+
+```Python
+# we are defining which eforms data table we are referencing to pull files
+eforms_df = pd.read_csv('eforms/process_check/Form 714_2025-05-23.csv')
+
+# this functions pulls date of filings (useful later)
+files_dated = eforms_df['Year'][0]
+
+# defining which eform table list we want to pull from 
+eform_filing_ids = eforms_bfuncs.process_eform_data(init_dataframe=eforms_df)
+
+# now we can call the function that will iterate through and grab all files referenced
+return_eform_filings(filing_ids=eform_filing_ids, date_of_files=files_dated)
+```
+
+3. Run [File Renamer Script](eforms/xml_renamer.py) to iterated through each file pulled and rename appropriately. Most importantly this process includes datetime submission of file which will be important when cleaning up our file directory. 
+
+```Python
+# we first need to load in the dataframe we used to pull our data
+xml_df_test = pd.read_csv('eforms/process_check/Form 714_2025-05-23.csv')
+
+# we also need to define path of where files exist
+dir_path_test = 'eforms/form_714_2024'
+
+rename_all_files(xml_df=xml_df_test, dir_path=dir_path_test)
+```
+
+**There you have it!** We have successfully pulled *ALL* Form 714s from the FERC website for the specified year. 
+
+# FERC ELibrary Tutorial
+
 
 # Skills Needed/Developed
 - Ability to  parse through XML Fles
