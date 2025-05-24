@@ -12,7 +12,8 @@ import os
 import eforms_base_functions as eforms_bfuncs
 
 # function that iterates through list to grab filings
-def return_eform_filings(filing_ids: list, date_of_files: str, form_type='form_714', download_path=None):
+def return_eform_filings(filing_ids: list, date_of_files: str, form_type='form_714', 
+                         download_path=None, minimize_browser=True):
     '''
     iterate through list and return files of data 
     provide list of filing ids and then also a string of where you would like to save files
@@ -34,6 +35,10 @@ def return_eform_filings(filing_ids: list, date_of_files: str, form_type='form_7
         
         # setting up the download directory
         options = webdriver.ChromeOptions()
+        
+        # disable pop up blocking and notifications
+        options.add_argument('--disable-notifications')
+        options.add_argument('--disable-popup-blocking')
 
         # path of where we want to store our data
         prefs = {"download.default_directory": fr"{download_path}", 
@@ -45,6 +50,10 @@ def return_eform_filings(filing_ids: list, date_of_files: str, form_type='form_7
 
         # creating a chome session
         driver = webdriver.Chrome(options=options)
+
+        # minimizing window
+        if minimize_browser: 
+            driver.minimize_window()
 
         # opening ferc library specific page
         driver.get(f'https://ecollection.ferc.gov/submissionDetails/{filing_id}')

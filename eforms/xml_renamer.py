@@ -162,10 +162,9 @@ def rename_all_files(xml_df: object, dir_path: str, sort_by = 'date'):
     print(f'Success Renaming Files Located at: {dir_path}')
         
 
-'''
+
 # we first need to load in the dataframe we used to pull our data
 xml_df_test = pd.read_csv('eforms/process_check/Form 714_2025-05-23.csv')
-dir_path_test = 'eforms/form_714_2023'
+dir_path_test = 'eforms/form_714_2021'
 
 rename_all_files(xml_df=xml_df_test, dir_path=dir_path_test)
-'''
