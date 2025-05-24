@@ -155,6 +155,7 @@ def return_elibrary_files(docket_num:str, save_path: str):
         # setting the page number where we want to extract info from
         results_page_num = driver.find_element(By.XPATH, 
                                             '/html/body/app-root/html/body/div/main/app-docketsheet/table/caption/mat-toolbar/div/mat-form-field/div/div[1]/div/mat-select/div')
+        
         results_page_num.click()
 
         # wait for options to be available
@@ -193,11 +194,13 @@ def return_elibrary_files(docket_num:str, save_path: str):
 #####################TEST######################
 # grabbing the master df
 main_df = return_elibrary_files(docket_num='RM22-7', 
-                                save_path='process_check')
+                                save_path='elibrary/process_check')
+
 
 # process main df to return list of accession codes
-list_of_accessions = eqp.queries_filter(dataframe=main_df, phrase="Comment", 
-                                        save_folder='process_check')
+list_of_accessions = eqp.queries_filter(dataframe=main_df, phrase="Comments", 
+                                        save_folder='elibrary/process_check', 
+                                        docket_num='RM22-7')
 
 # iterate through accession list and return files
-eqp.return_accession_files(accession_codes=list_of_accessions[:2])
+eqp.return_accession_files(accession_codes=list_of_accessions, docket_num="RM22-7")

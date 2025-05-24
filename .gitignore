@@ -197,6 +197,10 @@ eforms/form_714_2023
 eforms/form_714_2024
 eforms/form_714_2023 copy
 
+
+# for elibrary, hiding pdf files because they are too large
+elibrary/RM22-7_files
+
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore

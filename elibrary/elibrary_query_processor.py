@@ -10,12 +10,14 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 import pandas as pd
 
+import os
+
 
 # test accession codes
 test_codes = ['20211012-5620', '20211012-5638']
 
 
-def queries_filter(dataframe, phrase, save_folder=None, docket_num=None, save_pls=True):
+def queries_filter(dataframe, phrase, save_folder, docket_num, save_pls=True):
     '''
     purpose is to filter by checking whether the description contains a set of strings
     included the ability to save for future once we have everything set up
@@ -45,11 +47,20 @@ def queries_filter(dataframe, phrase, save_folder=None, docket_num=None, save_pl
     return accessions_list
 
 
-def return_accession_files(accession_codes: list, download_path=None):
+def return_accession_files(accession_codes: list, docket_num: str, download_path=None, minimize_browser=True):
     '''
     iterate through a list of accessions and download files within the data 
     portal
     '''
+
+    # if no download path is saved then assume we should save in a 'form_714 files
+    if download_path is None: 
+        # in this case create a folder where we will be saving our files
+        os.makedirs(f'elibrary/{docket_num}_files', exist_ok=True)
+        download_path = f'{str(os.getcwd())}/elibrary/{docket_num}_files'
+
+    else: 
+        print(f'Download Path Defined As: {download_path}')
 
     for accession in accession_codes:
 
@@ -69,6 +80,10 @@ def return_accession_files(accession_codes: list, download_path=None):
 
         # creating a chrome session 
         driver = webdriver.Chrome(options=options)
+
+        # minimizing window
+        if minimize_browser: 
+            driver.minimize_window()
 
         # opening ferc elibrary to the specific submission webpage
         driver.get(f"https://elibrary.ferc.gov/eLibrary/filelist?accession_number={accession}")
