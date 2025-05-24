@@ -8,6 +8,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
+import os
 
 import time
 import requests
@@ -31,12 +32,15 @@ docket_numbers = ['RM21-17', 'RM22-7', 'RM22-14']
 '''
 
 
-def return_elibrary_files(docket_num:str):
+def return_elibrary_files(docket_num:str, save_path: str):
 
     # given the total number of results, returns total number of results
     def num_of_query_pages():
         '''
         returns total number of queries within the webpage
+
+        docket examples: RM21-17, RM22-7, RM22-14
+        save_path, where the elibrary files will be stored, 
         '''
         # total results
         total_results = driver.find_element(By.CLASS_NAME, 'mat-paginator-range-label')
@@ -172,9 +176,9 @@ def return_elibrary_files(docket_num:str):
         # add to master df
         master_df = pd.concat([master_df, temp_df], ignore_index=True)
 
-    # checking to see if our pandas df printed accurately
-    # print(master_df)
-    master_df.to_csv(f'process_check/{docket_num}_all_queries.csv', index=False)
+    # if a directory to store file does not exist then create it
+    os.makedirs(f'{save_path}', exist_ok=True)
+    master_df.to_csv(f'{save_path}/{docket_num}_all_queries.csv', index=False)
 
     # making website chill for a bit
     time.sleep(5)
@@ -188,7 +192,8 @@ def return_elibrary_files(docket_num:str):
 
 #####################TEST######################
 # grabbing the master df
-main_df = return_elibrary_files(docket_num='RM22-7')
+main_df = return_elibrary_files(docket_num='RM22-7', 
+                                save_path='process_check')
 
 # process main df to return list of accession codes
 list_of_accessions = eqp.queries_filter(dataframe=main_df, phrase="Comment", 
