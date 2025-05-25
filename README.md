@@ -5,6 +5,13 @@ The main purpose of this project is to automate the retrieval, storing and analy
 
 Moreover, we would like to automate a process of grabing files from the FERC E-Library. 
 
+## Below are the notebooks showcasing work for FERC 714 Forecast Visuals
+- [FERC 714 Forecasts Visualized](eforms/unifying_714.ipynb)
+
+![ann_net_load](readme_figures/ann_net_load.png)
+![winter_forecast](readme_figures/winter_forecast.png)
+![summer_forecast](readme_figures/summer_forecast.png)
+
 # Issue & Solution
 The FERC website, while very *fresh*, makes it extremely difficult to access public data. Moreover, there currently exists no easy to use tool that can help an individual obtain FERC 714 data in an aggregate format that can then be analyzed. The issue I am trying to solve is simple: can i reduce labor hours and attention needed in acquiring as much FERC 714 forms as possible? 
 
@@ -93,9 +100,6 @@ We will specifically be focused on grabbing public comment files for Order 1920 
 
 [FERC Ruling 1920](https://www.ferc.gov/news-events/news/ferc-strengthens-order-no-1920-expanded-state-provisions): requires transmission providers to conduct long-term planning of regional transmission facilities over 20-year time horizon to anticipate future needs and to determine how to pay for those tranmission facilities. 
 - technically there exists a 1920-A which is an amendment to FERC ruling 1920. 
-
-
-
 
 # Packages Required
 - selenium
