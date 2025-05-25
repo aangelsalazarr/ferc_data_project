@@ -193,14 +193,14 @@ def return_elibrary_files(docket_num:str, save_path: str):
 
 #####################TEST######################
 # grabbing the master df
-main_df = return_elibrary_files(docket_num='RM22-7', 
+main_df = return_elibrary_files(docket_num='RM21-17', 
                                 save_path='elibrary/process_check')
 
 
 # process main df to return list of accession codes
 list_of_accessions = eqp.queries_filter(dataframe=main_df, phrase="Comments", 
                                         save_folder='elibrary/process_check', 
-                                        docket_num='RM22-7')
+                                        docket_num='RM21-17')
 
 # iterate through accession list and return files
-eqp.return_accession_files(accession_codes=list_of_accessions, docket_num="RM22-7")
+eqp.return_accession_files(accession_codes=list_of_accessions, docket_num="RM21-17")

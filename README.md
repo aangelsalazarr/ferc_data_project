@@ -1,7 +1,9 @@
 # FERC Data Projects
 Python Scripts Facilitating the Navigation of FERC Data. This project was directly inspired by a report I read a few years ago titled [The Era of Flat Power Demand is Over](https://gridstrategiesllc.com/wp-content/uploads/2023/12/National-Load-Growth-Report-2023.pdf) by GridStrategies (Authors: John D. Wilson and Zach Zimmerman).
 
-The main purpose of this project is to automate the retrieval, storing and analysis of FERC 714 Form Data. More specifically, I am interested in parsing through and grabbing forecast related data. 
+The main purpose of this project is to automate the retrieval, storing and analysis of FERC 714 Form Data. More specifically, I am interested in parsing through and grabbing forecast related data from this report. 
+
+Moreover, we would like to automate a process of grabing files from the FERC E-Library. 
 
 # Issue & Solution
 The FERC website, while very *fresh*, makes it extremely difficult to access public data. Moreover, there currently exists no easy to use tool that can help an individual obtain FERC 714 data in an aggregate format that can then be analyzed. The issue I am trying to solve is simple: can i reduce labor hours and attention needed in acquiring as much FERC 714 forms as possible? 
@@ -45,15 +47,25 @@ dir_path_test = 'eforms/form_714_2024'
 
 rename_all_files(xml_df=xml_df_test, dir_path=dir_path_test)
 ```
+4. Datatables stored in process_check and Form 714 Files stored in form_714_2021
 
 **There you have it!** We have successfully pulled *ALL* Form 714s from the FERC website for the specified year. 
 
 # FERC ELibrary Tutorial
+1. Run [ELibrary Query Navigator](elibrary/elibrary_query_navigator.py), which references [ELibrary Query Processor](elibrary/elibrary_query_processor.py). 
 
+```Python
+# creating main df, data table containing all files for RM22-7
+main_df = return_elibrary_files(docket_num='RM22-7',
+save_path='elibrary/process_check')
 
-# Skills Needed/Developed
-- Ability to  parse through XML Fles
-- Ability to code a webcrawler to automate the navigation of websites
+# process main df to return list of accession codes that have description including the phrase "Comments" 
+list_of_accessions = eqp.queries_filter(dataframe=main_df, phrase="Comments", save_folder='elibrary/process_check', docket_num='RM22-7')
+
+# iterate through accession list and return files
+eqp.return_accession_files(accession_codes=list_of_accessions, docket_num="RM22-7")
+```
+2. Data tables stored in process_check and files are stored in RM22-7_files directory
 
 # Components
 ### FERC Forms 
